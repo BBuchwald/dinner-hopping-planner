@@ -22,5 +22,8 @@ eingehalten werden.
 
 Wie wird der "Dinner Hopping Planner" ausgeführt?
 ***********************************************
-Quellcode und ausführliche Anleitung sind dem Ordner "Prototyp" zu entnehmen.
+- Downloaden und Entpacken der "Dinner_Hopping_Planner.zip" Datei
+- befolgen der Anweisungen in readme.txt und Benutzer-Leitfaden
+
+Die entpackte Form des zip Files mit Quellcode ist im Ordner Prototyp zu finden!
 

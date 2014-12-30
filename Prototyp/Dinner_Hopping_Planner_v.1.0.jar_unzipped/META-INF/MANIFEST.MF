@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Rsrc-Class-Path: ./ json-20080701.jar commons-collections-3.2.1.jar sw
+ ing-worker-1.2.jar httpclient-4.1.3.jar ezmorph-1.0.6.jar json-lib-2.
+ 4-jdk15.jar javacsv.jar swingx-ws-2007_11_04.jar swingx.jar commons-b
+ eanutils-1.8.0.jar swingx-bean.jar commons-httpclient-3.1.jar commons
+ -codec-1.4.jar commons-io-2.2.jar commons-lang-2.5.jar commons-loggin
+ g-1.1.1.jar cloudmade-java-api-0.1.2.jar osm2po-core-4.5.2-signed.jar
+Class-Path: .
+Rsrc-Main-Class: PlannerModel
+Main-Class: org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader
+
