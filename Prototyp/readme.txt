@@ -1,8 +1,8 @@
 Was ist der "Dinner Hopping Planner"?
 ***********************************
 
-Der "Dinner Hopping Planner" ist eine prototypische Softwarelösung zum planen 
-des „Dinner Hopping“. Er ist in vollständig in Java geschrieben.
+Der "Dinner Hopping Planner" ist eine prototypische SoftwarelÃ¶sung zum Planen 
+des â€Dinner Hoppingâ€œ. Er ist in vollstÃ¤ndig in Java geschrieben.
 
 
 Was ist das "Dinner Hopping"?
@@ -11,7 +11,7 @@ Was ist das "Dinner Hopping"?
 Dabei sind Teams gegeben, die an bestimmten Orten beheimatet sind. Jedes Team 
 richtet entweder eine Vor-, Haupt oder Nachspeise an. Ziel ist es, jedem Team 
 eine Route, bestehend aus drei Orten zuzuteilen, sodass jedes Team ein 
-komplettes 3-Gänge-Menü einnimmt. Dabei müssen bestimmte Nebenbedingungen 
+komplettes 3-GÃ¤nge-MenÃ¼ einnimmt. Dabei mÃ¼ssen bestimmte Nebenbedingungen 
 eingehalten werden.
 
 
@@ -25,32 +25,32 @@ Verzeichnis "src". Das Java-Doc ist im Verzeichnis "doc" zu finden.
 Wie wird der "Dinner Hopping Planner" installiert?
 **************************************************
 
-Um die Software nutzen zu können müssen sie das heruntergeladene komprimierte 
-Archiv (Dateiendung z.B. „.zip“ oder „.rar“) entpacken. Daraufhin sehen sie 
-eine Datei „Dinner_Hopping_Planner_v.1.0.jar“. Außerdem erscheint ein Ordner 
-„sn“. Dort sind Graph-Daten für den Osm2po-Dienst gespeichert, die Sie für 
-dessen Nutzung benötigen. Die Graph-Daten enthalten die OpenStreetMap-Daten 
-für das Bundesland Sachsen und sind bereits für die Nutzung vorkonfiguriert. 
+Um die Software nutzen zu kÃ¶nnen mÃ¼ssen sie das heruntergeladene komprimierte 
+Archiv (Dateiendung z.B. â€.zipâ€œ oder â€.rarâ€œ) entpacken. Daraufhin sehen sie 
+eine Datei â€Dinner_Hopping_Planner_v.1.0.jarâ€œ. AuÃŸerdem erscheint ein Ordner 
+â€snâ€œ. Dort sind Graph-Daten fÃ¼r den Osm2po-Dienst gespeichert, die Sie fÃ¼r 
+dessen Nutzung benÃ¶tigen. Die Graph-Daten enthalten die OpenStreetMap-Daten 
+fÃ¼r das Bundesland Sachsen und sind bereits fÃ¼r die Nutzung vorkonfiguriert. 
 
-Zum Öffnen des Programms führen Sie die folgenden Schritte durch:
-1.	Öffnen Sie eine Konsole/Terminal. In Windows drücken sie dafür die 
-	Tastenkombination Windows-Taste + R. Geben Sie im sich öffnenden 
-	Fenster den Befehl „cmd“ ein. Wie sie ein Terminal unter verschiedenen 
-	Linux-Distributionen öffnen erfahren Sie hier http://wiki.ubuntuusers.de/Terminal. 
+Zum Ã–ffnen des Programms fÃ¼hren Sie die folgenden Schritte durch:
+1.	Ã–ffnen Sie eine Konsole/Terminal. In Windows drÃ¼cken sie dafÃ¼r die 
+	Tastenkombination Windows-Taste + R. Geben Sie im sich Ã¶ffnenden 
+	Fenster den Befehl â€cmdâ€œ ein. Wie sie ein Terminal unter verschiedenen 
+	Linux-Distributionen Ã¶ffnen erfahren Sie hier http://wiki.ubuntuusers.de/Terminal. 
 2.	Daraufhin navigieren sie in das Verzeichnis, in welchem sich die Datei 
-	„Dinner_Hopping_Planner_v.1.0.jar“  befindet. 
-3.	Geben sie daraufhin den Befehl „java –jar Dinner_Hopping_Planner_v.1.0.jar“ 
-	in die Konsole ein. Schließlich öffnet sich die Benutzeroberfläche.
+	â€Dinner_Hopping_Planner_v.1.0.jarâ€œ  befindet. 
+3.	Geben sie daraufhin den Befehl â€java â€“jar Dinner_Hopping_Planner_v.1.0.jarâ€œ 
+	in die Konsole ein. SchlieÃŸlich Ã¶ffnet sich die BenutzeroberflÃ¤che.
 
 
 Ein Beispieldatensatz mit 9 Teams ist durch die Datei "addr.csv" gegeben.
 
 
-Weiterführende Quellen:
+WeiterfÃ¼hrende Quellen:
 ***********************
 
-Bei weiterführenden Fragen zur Installation, zum Aufbau, zu Funktionen, 
-Problemen oder weiterführender Literatur nutzen Sie bitte den beigefügten 
+Bei weiterfÃ¼hrenden Fragen zur Installation, zum Aufbau, zu Funktionen, 
+Problemen oder weiterfÃ¼hrender Literatur nutzen Sie bitte den beigefÃ¼gten 
 Benutzer-Leitfaden.
 
 
