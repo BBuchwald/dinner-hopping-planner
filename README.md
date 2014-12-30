@@ -6,7 +6,7 @@ Was ist der "Dinner Hopping Planner"?
 
 Der "Dinner Hopping Planner" ist eine prototypische Softwarelösung zum planen 
 des „Dinner Hopping“. Er ist vollständig in Java geschrieben. Die Software wurde
-im November 2012 in Zusammenhang mit der <a href="http://lips.informatik.uni-leipzig.de/pub/2012-13">Bachelorarbeit 
+im November 2012 in Zusammenhang mit der <a target="_blank" href="http://lips.informatik.uni-leipzig.de/pub/2012-13">Bachelorarbeit 
 "Integration von Geodaten in ein Planungssystem"</a> an der Universität Leipzig,
 Institut für Informatik fertiggestellt.
 
