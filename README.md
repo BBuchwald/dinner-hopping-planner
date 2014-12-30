@@ -1,7 +1,7 @@
 dinner-hopping-planner
 ======================
 
-Was ist der "Dinner Hopping Planner"?
+<h5>Was ist der "Dinner Hopping Planner"?</h5>
 ***********************************
 
 Der "Dinner Hopping Planner" ist eine prototypische Softwarelösung zum Planen 
@@ -11,7 +11,7 @@ im November 2012 in Zusammenhang mit der <a target="_blank" href="http://lips.in
 Institut für Informatik fertiggestellt.
 
 
-Was ist das "Dinner Hopping"?
+<h5>Was ist das "Dinner Hopping"?</h5>
 *****************************
 
 Dabei sind Teams gegeben, die an bestimmten Orten beheimatet sind. Jedes Team 
@@ -20,28 +20,28 @@ eine Route, bestehend aus drei Orten zuzuteilen, sodass jedes Team ein
 komplettes 3-Gänge-Menü einnimmt. Dabei müssen bestimmte Nebenbedingungen 
 eingehalten werden.
 
-Wie wird der "Dinner Hopping Planner" ausgeführt?
+<h5>Wie wird der "Dinner Hopping Planner" ausgeführt?</h5>
 *************************************************
 - Downloaden und Entpacken der "Prototyp.zip" Datei
 - befolgen der Anweisungen in readme.txt und Benutzer-Leitfaden
 - beibehalten der Ordnerstruktur
 
-Wo ist der Quellcode zu finden?
+<h5>Wo ist der Quellcode zu finden?</h5>
 *******************************
 Die entpackte Form des zip Files mit Quellcode ist im Ordner Prototyp zu finden.
 
-Wie ist der Aufbau?
+<h5>Wie ist der Aufbau?</h5>
 *******************
-Input: Adressen der Teilnehmer
-1. Geocodierer
-2. Distanzkalkulation
-3. Routenberechnung
-4. Visualisierung
+Input: Adressen der Teilnehmer<br>
+1. Geocodierer<br>
+2. Distanzkalkulation<br>
+3. Routenberechnung<br>
+4. Visualisierung<br>
 Output: Routen der einzelnen Teilnehmer
 
 Genaueres siehe Benutzer-Leitfaden!
 
-Hinweis
+<h5>Hinweis</h5>
 *******
 Die CloudMade Services zur Geokodierung und zur Distanzbestimmung benötigen für ihre
 Funktion einen API Key. Zum Zeitpunkt der Erstellung 2012 war dieser frei verfügbar.
