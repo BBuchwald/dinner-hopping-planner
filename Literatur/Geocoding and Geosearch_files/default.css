@@ -1,0 +1,186 @@
+body {
+	margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: arial, sans-serif; font-size: 12px;
+}
+html {
+	margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: arial, sans-serif; font-size: 12px;
+}
+body {
+	background: rgb(218, 230, 232); overflow-y: scroll;
+}
+h1 {
+	margin: 0px 0px 10px;
+}
+h2 {
+	margin: 0px 0px 10px;
+}
+h3 {
+	margin: 0px 0px 10px;
+}
+h4 {
+	margin: 0px 0px 10px;
+}
+p {
+	margin: 0px 0px 10px;
+}
+h1 {
+	font: bold 16px/normal arial; font-size-adjust: none; font-stretch: normal;
+}
+h2 {
+	font: bold 16px/normal arial; font-size-adjust: none; font-stretch: normal;
+}
+h4 {
+	font-size: 12px;
+}
+ol {
+	list-style: none; margin: 0px 0px 15px; padding: 0px;
+}
+ul {
+	list-style: none; margin: 0px 0px 15px; padding: 0px;
+}
+li {
+	padding: 3px 0px;
+}
+dd {
+	margin: 0px;
+}
+img {
+	border: currentColor;
+}
+table {
+	width: 99.9%; clear: both; margin-bottom: 15px; border-collapse: collapse; border-spacing: 0;
+}
+tr {
+	vertical-align: middle;
+}
+td {
+	padding: 4px 8px; vertical-align: top; border-top-width: 0px;
+}
+th {
+	padding: 4px 8px; vertical-align: top; border-top-width: 0px;
+}
+th {
+	border-width: medium 1px 1px; border-style: none solid solid; border-color: currentColor rgb(164, 184, 188) rgb(164, 184, 188); text-align: left; font-weight: bold; background-color: rgb(181, 203, 208);
+}
+td {
+	border-width: medium 1px 1px; border-style: none solid solid; border-color: currentColor rgb(216, 216, 216) rgb(216, 216, 216);
+}
+form {
+	margin-bottom: 0px; position: relative; zoom: 1;
+}
+fieldset {
+	border: currentColor;
+}
+a {
+	outline: rgb(255, 255, 255) 0px; color: rgb(0, 102, 203);
+}
+a:visited {
+	outline: rgb(255, 255, 255) 0px; color: rgb(0, 102, 203);
+}
+a:hover {
+	outline: rgb(255, 255, 255) 0px; color: rgb(0, 102, 203);
+}
+h2 a {
+	color: rgb(0, 0, 0);
+}
+hr {
+	margin: 15px 0px; border: 1px solid rgb(216, 216, 216); display: block;
+}
+ins {
+	text-decoration: none;
+}
+pre {
+	background: rgb(238, 238, 238); padding: 10px 10px 15px; overflow: auto; margin-bottom: 10px; overflow-y: hidden;
+}
+.links_block {
+	background: rgb(238, 238, 238); padding: 10px 10px 15px; overflow: auto; margin-bottom: 10px; overflow-y: hidden;
+}
+.links_block {
+	margin-top: 5px;
+}
+pre {
+	font-family: Monaco,Consolas,"Lucida Console",monospace;
+}
+code {
+	font-family: Monaco,Consolas,"Lucida Console",monospace;
+}
+.links_block a {
+	display: block; white-space: nowrap;
+}
+.left {
+	float: left !important;
+}
+.right {
+	float: right !important;
+}
+.last {
+	margin-bottom: 0px !important;
+}
+.nowrap {
+	white-space: nowrap;
+}
+.center {
+	text-align: center;
+}
+.shift-left {
+	margin-left: 15px;
+}
+.clear {
+	width: 100%; height: 1px; clear: both;
+}
+.required {
+	color: rgb(255, 0, 0) !important;
+}
+.hor-menu {
+	overflow: hidden; zoom: 1;
+}
+.hor-menu a {
+	float: left;
+}
+.hor-menu span {
+	float: left;
+}
+.hidden-submitter {
+	border: currentColor; top: -100000px; width: 0px; height: 0px; font-size: 0px; position: absolute;
+}
+.bulletted li {
+	background: url("/images/layout/bullet.png") no-repeat 0px 5px; padding-left: 15px; position: relative;
+}
+.bulletted li.simple {
+	
+}
+ol.numbered {
+	list-style: decimal; padding-left: 25px;
+}
+a.wiki-anchor {
+	display: none;
+}
+a.wiki-anchor:hover {
+	display: none;
+}
+.fb_iframe_widget {
+	display: inline-block; position: relative;
+}
+.fb_iframe_widget span:first-of-type {
+	text-align: justify; line-height: 16px; font-size: 11px; margin-top: 2px; margin-left: 10px; vertical-align: text-bottom; float: left; display: inline-block; position: relative;
+}
+.fb_iframe_widget.fb_edge_widget_with_comment span:first-of-type {
+	margin: 0px; height: 24px;
+}
+.fb_edge_widget_with_comment span:first-of-type {
+	margin: 0px; height: 24px;
+}
+.fb_edge_widget_with_comment {
+	height: 24px;
+}
+#user-actions .feedback-wrapper {
+	background: 0px !important;
+}
+#fb_login_button {
+	height: 18px; float: none; display: block;
+}
+.fb_iframe_widget#fb_login_button span:first-of-type {
+	margin: 6px auto 0px; float: none; display: block;
+}
+#fb_login_button span:first-of-type {
+	margin: 6px auto 0px; float: none; display: block;
+}

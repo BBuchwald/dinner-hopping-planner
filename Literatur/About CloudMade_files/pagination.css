@@ -1,0 +1,33 @@
+.pagination {
+	overflow: hidden; display: block;
+}
+.pagination .prev_page {
+	margin: 0px 5px; border: currentColor; width: auto; height: 22px; line-height: 22px; overflow: hidden; text-decoration: underline; float: left; display: block;
+}
+.pagination .next_page {
+	margin: 0px 5px; border: currentColor; width: auto; height: 22px; line-height: 22px; overflow: hidden; text-decoration: underline; float: left; display: block;
+}
+.pagination .prev_page {
+	background: url("/images/support/pager_arrow_l.png") no-repeat left; padding-left: 8px;
+}
+.pagination .next_page {
+	background: url("/images/support/pager_arrow_r.png") no-repeat right; padding-right: 8px;
+}
+.pagination .disabled.next_page {
+	display: none;
+}
+.pagination .disabled.prev_page {
+	display: none;
+}
+.pagination .current {
+	margin: 0px 3px; border-radius: 5px; border: 1px solid rgb(238, 238, 238); width: 20px; height: 20px; text-align: center; line-height: 20px; text-decoration: none; float: left; display: block; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+.pagination a {
+	margin: 0px 3px; border-radius: 5px; border: 1px solid rgb(238, 238, 238); width: 20px; height: 20px; text-align: center; line-height: 20px; text-decoration: none; float: left; display: block; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+.pagination .current {
+	background: rgb(49, 124, 200); color: rgb(255, 255, 255);
+}
+.pagination .gap {
+	width: 20px; height: 20px; text-align: center; line-height: 26px; float: left; display: block;
+}

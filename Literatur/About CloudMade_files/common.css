@@ -1,0 +1,93 @@
+div.featured-apps {
+	background: rgb(154, 170, 181); padding: 10px 0px 10px 10px !important; overflow: hidden; zoom: 1;
+}
+.featured-apps .wrapper {
+	padding: 0px; width: 72px; text-align: center; color: rgb(102, 102, 102); text-decoration: none; margin-right: 10px; float: left;
+}
+.featured-apps span {
+	color: rgb(255, 255, 255); display: block;
+}
+.featured-apps img {
+	padding-bottom: 4px; position: static;
+}
+.dock {
+	background: rgb(225, 235, 237); border-radius: 8px; position: relative;
+}
+.dock div {
+	padding: 15px; color: rgb(102, 102, 102);
+}
+.dock h3 {
+	background: url("/images/pricing/th-bg.png") repeat-x rgb(129, 139, 158); color: rgb(255, 255, 255); font-size: 14px; font-weight: bold; white-space: nowrap; text-shadow: #222 0 1px 1px;
+}
+.dock h3 {
+	padding: 7px 15px; margin-bottom: 0px; border-top-left-radius: 8px; border-top-right-radius: 8px;
+}
+.notice-wrapper {
+	padding: 10px; margin-bottom: 15px; position: relative; background-repeat: repeat-x;
+}
+.error.notice-wrapper {
+	background-image: url("/images/layout/flash-error-bg.png"); background-color: rgb(255, 234, 234);
+}
+.notice.notice-wrapper {
+	background-image: url("/images/layout/flash-notice-bg.png"); background-color: rgb(223, 251, 211);
+}
+.general.notice-wrapper {
+	background-image: url("/images/layout/flash-general-bg.png"); background-color: rgb(249, 248, 187);
+}
+.notice-wrapper span {
+	padding: 3px 0px 1px 28px; color: rgb(0, 0, 0); line-height: 14px; font-size: 12px; display: block; background-repeat: no-repeat; background-color: transparent;
+}
+.error.notice-wrapper span {
+	background-image: url("/images/layout/flash-error-icon.png");
+}
+span#notice {
+	background-image: url("/images/layout/flash-error-icon.png");
+}
+.notice.notice-wrapper span {
+	background-image: url("/images/layout/flash-notice-icon.png");
+}
+.general.notice-wrapper span {
+	background-image: url("/images/layout/flash-general-icon.png");
+}
+.close-notice {
+	background: url("/images/layout/not-available.png") 0px 0px; top: 5px; width: 16px; height: 16px; right: 5px; position: absolute; cursor: pointer;
+}
+#notice-wrapper .close-notice {
+	top: 12px; right: 10px;
+}
+#notice a {
+	margin: 0px; font-size: 12px; float: none;
+}
+.notice {
+	color: red; background-color: rgb(255, 255, 255);
+}
+#carousel-wrapper {
+	left: 0px; overflow: hidden; position: absolute;
+}
+.numbers {
+	left: 20px; bottom: 10px; position: absolute;
+}
+.numbers .arrow {
+	height: 18px; line-height: 18px; text-decoration: none; margin-right: 4px; float: left;
+}
+.numbers .number {
+	height: 18px; line-height: 18px; text-decoration: none; margin-right: 4px; float: left;
+}
+.numbers .number {
+	background: rgb(17, 45, 88); border-radius: 4px; border: 1px solid rgb(255, 255, 255); width: 18px; text-align: center; color: rgb(255, 255, 255);
+}
+.numbers .current.number {
+	background: rgb(66, 108, 170);
+}
+.numbers .carousel-selected.number {
+	background: rgb(66, 108, 170);
+}
+.numbers .arrow {
+	background-position: center; width: 4px; background-repeat: no-repeat;
+}
+.numbers .prev.arrow {
+	background-image: url("/images/index/slider-prev.png");
+}
+.numbers .next.arrow {
+	background-image: url("/images/index/slider-next.png");
+}

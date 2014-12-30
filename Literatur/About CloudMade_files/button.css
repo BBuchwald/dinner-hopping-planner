@@ -1,0 +1,126 @@
+.button {
+	outline: 0px; height: 23px; line-height: 23px; background-repeat: no-repeat;
+}
+.button .middle {
+	outline: 0px; height: 23px; line-height: 23px; background-repeat: no-repeat;
+}
+.button .right {
+	outline: 0px; height: 23px; line-height: 23px; background-repeat: no-repeat;
+}
+.button {
+	background: url("/images/button/button-left.png") no-repeat left top; padding: 0px 10px; outline: 0px; text-decoration: none; display: inline-block; -webkit-transform: translateZ(0);
+}
+.button .middle {
+	padding: 0px 6px; outline: 0px; text-align: center; color: rgb(255, 255, 255); font-size: 12px; font-weight: bold; display: block; position: relative; cursor: pointer; background-image: url("/images/button/button-middle.png"); background-repeat: repeat-x; -webkit-transform: translateZ(0); text-shadow: 0 1px 1px #222;
+}
+.button .right {
+	background: url("/images/button/button-right.png") no-repeat right top; outline: 0px; top: 0px; width: 10px; right: -10px; position: absolute; -webkit-transform: translateZ(0);
+}
+.large.button {
+	outline: 0px; height: 38px; line-height: 38px;
+}
+.large.button .middle {
+	outline: 0px; height: 38px; line-height: 38px;
+}
+.large.button .middle .right {
+	outline: 0px; height: 38px; line-height: 38px;
+}
+.large.button {
+	padding: 0px 18px;
+}
+.large.button .middle {
+	padding: 0px 6px;
+}
+.large.button .right {
+	width: 18px; right: -18px;
+}
+.large.button .middle {
+	font-size: 16px;
+}
+.default.button .middle {
+	color: rgb(74, 86, 89); text-shadow: 0 1px 1px #fff;
+}
+.pref.button .middle {
+	color: rgb(100, 49, 0); text-shadow: 0 1px 1px #fff;
+}
+.active.default.button .middle {
+	color: rgb(255, 255, 255); text-shadow: none;
+}
+.default.button {
+	background-image: url("/images/button/button-default-left.png"); -webkit-transform: translateZ(0);
+}
+.default.button .middle {
+	background-image: url("/images/button/button-default-middle.png"); -webkit-transform: translateZ(0);
+}
+.default.button .right {
+	background: url("/images/button/button-default-right.png") no-repeat right top; -webkit-transform: translateZ(0);
+}
+.pref.button {
+	background-image: url("/images/button/button-pref-left.png"); -webkit-transform: translateZ(0);
+}
+.pref.button .middle {
+	background-image: url("/images/button/button-pref-middle.png"); -webkit-transform: translateZ(0);
+}
+.pref.button .right {
+	background: url("/images/button/button-pref-right.png") no-repeat right top; -webkit-transform: translateZ(0);
+}
+.active.default.button {
+	background-position: left;
+}
+.active.default.button .middle {
+	background-position: left;
+}
+.active.default.button .right {
+	background-position: right;
+}
+.large.button {
+	background-image: url("/images/button/button-large-left.png"); -webkit-transform: translateZ(0);
+}
+.large.button .middle {
+	background-image: url("/images/button/button-large-middle.png"); -webkit-transform: translateZ(0);
+}
+.large.button .right {
+	background: url("/images/button/button-large-right.png") no-repeat right top; -webkit-transform: translateZ(0);
+}
+.pref.large.button {
+	background-image: url("/images/button/button-pref-large-left.png"); -webkit-transform: translateZ(0);
+}
+.pref.large.button .middle {
+	background-image: url("/images/button/button-pref-large-middle.png"); -webkit-transform: translateZ(0);
+}
+.pref.large.button .right {
+	background: url("/images/button/button-pref-large-right.png") no-repeat right top; -webkit-transform: translateZ(0);
+}
+.disabled.button {
+	opacity: 0.6;
+}
+.disabled.button {
+	cursor: text !important;
+}
+.disabled.button .middle {
+	cursor: text !important;
+}
+.button:hover {
+	background-position: left bottom;
+}
+.button:hover .middle {
+	background-position: left bottom;
+}
+.button:hover .right {
+	background-position: right bottom;
+}
+.two-lines.button .middle {
+	height: 34px; line-height: 16px; padding-top: 4px;
+}
+.two-lines.button em {
+	font-size: 11px; font-style: normal; font-weight: normal; display: block;
+}
+.merged-buttons a.button {
+	padding-right: 0px; float: left;
+}
+.merged-buttons a.cut.button {
+	padding-left: 0px; border-left-color: rgb(180, 178, 178); border-left-width: 1px; border-left-style: solid; background-image: none;
+}
+.merged-buttons a.button .middle {
+	padding: 0px 8px;
+}

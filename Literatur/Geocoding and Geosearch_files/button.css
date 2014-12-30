@@ -1,0 +1,159 @@
+.button {
+	height: 24px; line-height: 24px;
+}
+.button .middle {
+	height: 24px; line-height: 24px;
+}
+.button .right {
+	height: 24px; line-height: 24px;
+}
+.button {
+	background: url("/images/button/button-left.png") no-repeat left top; padding: 0px 3px; text-decoration: none;
+}
+.button .middle {
+	background: url("/images/button/button-middle.png") repeat-x left top; padding: 0px 12px; text-align: center; color: rgb(0, 0, 0); font-size: 12px; font-weight: normal; display: block; position: relative; cursor: pointer;
+}
+.button .right {
+	background: url("/images/button/button-right.png") no-repeat left top; top: 0px; width: 6px; right: -6px; position: absolute;
+}
+.button:hover {
+	background: url("/images/button/button-left.png") no-repeat 0px -24px;
+}
+.hover.button {
+	background: url("/images/button/button-left.png") no-repeat 0px -24px;
+}
+.button:hover .middle {
+	background: url("/images/button/button-middle.png") repeat-x 0px -24px; color: rgb(102, 102, 102);
+}
+.hover.button .middle {
+	background: url("/images/button/button-middle.png") repeat-x 0px -24px; color: rgb(102, 102, 102);
+}
+.button:hover .right {
+	background: url("/images/button/button-right.png") no-repeat 0px -24px;
+}
+.hover.button .right {
+	background: url("/images/button/button-right.png") no-repeat 0px -24px;
+}
+.pref.button {
+	background: url("/images/button/button-pref-left.png") no-repeat left top;
+}
+.pref.button .middle {
+	background: url("/images/button/button-pref-middle.png") repeat-x left top; color: rgb(0, 0, 0);
+}
+.pref.button .right {
+	background: url("/images/button/button-pref-right.png") no-repeat left top;
+}
+.pref.button:hover {
+	background: url("/images/button/button-pref-left.png") no-repeat 0px -24px;
+}
+.pref.button:hover .middle {
+	background: url("/images/button/button-pref-middle.png") repeat-x 0px -24px;
+}
+.pref.button:hover .right {
+	background: url("/images/button/button-pref-right.png") no-repeat 0px -24px;
+}
+.new.button {
+	height: 23px; line-height: 23px;
+}
+.new.button .middle {
+	height: 23px; line-height: 23px;
+}
+.new.button .right {
+	height: 23px; line-height: 23px;
+}
+.new.button {
+	padding: 0px 10px;
+}
+.new.button .middle {
+	padding: 0px 6px;
+}
+.new.button .right {
+	width: 10px; right: -10px;
+}
+.new.button {
+	background: url("/images/button/button-new-left.png") no-repeat left top;
+}
+.new.button .middle {
+	background: url("/images/button/button-new-middle.png") repeat-x left top; color: rgb(255, 255, 255);
+}
+.new.button .right {
+	background: url("/images/button/button-new-right.png") no-repeat left top;
+}
+.pref.new.button {
+	background: url("/images/button/button-new-pref-left.png") no-repeat left top;
+}
+.pref.new.button .middle {
+	background: url("/images/button/button-new-pref-middle.png") repeat-x left top; color: rgb(100, 49, 0); font-weight: bold; text-shadow: 0 1px 1px #fff;
+}
+.pref.new.button .right {
+	background: url("/images/button/button-new-pref-right.png") no-repeat left top;
+}
+.large.button {
+	height: 38px; line-height: 38px;
+}
+.large.button .middle {
+	height: 38px; line-height: 38px;
+}
+.large.button .right {
+	height: 38px; line-height: 38px;
+}
+.large.button {
+	padding: 0px 20px;
+}
+.large.button .middle {
+	padding: 0px; font-size: 16px; font-weight: bold; text-shadow: #222 0 1px 1px;
+}
+.large.button .right {
+	width: 20px; right: -20px;
+}
+.large.button {
+	background: url("/images/button/button-large-left.png") no-repeat left top;
+}
+.large.button .middle {
+	background: url("/images/button/button-large-middle.png") repeat-x left top; color: rgb(255, 255, 255);
+}
+.large.button .right {
+	background: url("/images/button/button-large-right.png") no-repeat left top;
+}
+.pref.new.button:hover {
+	background-position: left bottom;
+}
+.pref.new.button:hover .middle {
+	background-position: left bottom;
+}
+.pref.new.button:hover .right {
+	background-position: left bottom;
+}
+.large.button:hover {
+	background-position: left bottom;
+}
+.large.button:hover .middle {
+	background-position: left bottom;
+}
+.large.button:hover .right {
+	background-position: left bottom;
+}
+.blue.button:hover {
+	background-position: left bottom;
+}
+.blue.button:hover .middle {
+	background-position: left bottom;
+}
+.blue.button:hover .right {
+	background-position: left bottom;
+}
+.start.button:hover {
+	background-position: left bottom;
+}
+.start.button:hover .middle {
+	background-position: left bottom;
+}
+.start.button:hover .right {
+	background-position: left bottom;
+}
+.two-lines.button .middle {
+	height: 34px; line-height: 16px; padding-top: 4px;
+}
+.two-lines.button em {
+	font-size: 11px; font-style: normal; font-weight: normal; display: block;
+}

@@ -1,0 +1,141 @@
+.icon22 {
+	line-height: 20px; padding-left: 25px;
+}
+.icon {
+	line-height: 20px; padding-left: 25px;
+}
+.icon-add {
+	background: url("/images/add.png") no-repeat left;
+}
+.icon-edit {
+	background: url("/images/edit.png") no-repeat left;
+}
+.icon-copy {
+	background: url("/images/copy.png") no-repeat left;
+}
+.icon-del {
+	background: url("/images/delete.png") no-repeat left;
+}
+.icon-move {
+	background: url("/images/move.png") no-repeat left;
+}
+.icon-save {
+	background: url("/images/save.png") no-repeat left;
+}
+.icon-cancel {
+	background: url("/images/cancel.png") no-repeat left;
+}
+.icon-file {
+	background: url("/images/file.png") no-repeat left;
+}
+.icon-folder {
+	background: url("/images/folder.png") no-repeat left;
+}
+.open .icon-folder {
+	background: url("/images/folder_open.png") no-repeat left;
+}
+.icon-package {
+	background: url("/images/package.png") no-repeat left;
+}
+.icon-home {
+	background: url("/images/home.png") no-repeat left;
+}
+.icon-user {
+	background: url("/images/user.png") no-repeat left;
+}
+.icon-mypage {
+	background: url("/images/user_page.png") no-repeat left;
+}
+.icon-admin {
+	background: url("/images/admin.png") no-repeat left;
+}
+.icon-projects {
+	background: url("/images/projects.png") no-repeat left;
+}
+.icon-help {
+	background: url("/images/help.png") no-repeat left;
+}
+.icon-attachment {
+	background: url("/images/attachment.png") no-repeat left;
+}
+.icon-index {
+	background: url("/images/index.png") no-repeat left;
+}
+.icon-history {
+	background: url("/images/history.png") no-repeat left;
+}
+.icon-time {
+	background: url("/images/time.png") no-repeat left;
+}
+.icon-stats {
+	background: url("/images/stats.png") no-repeat left;
+}
+.icon-warning {
+	background: url("/images/warning.png") no-repeat left;
+}
+.icon-fav {
+	background: url("/images/fav.png") no-repeat left;
+}
+.icon-fav-off {
+	background: url("/images/fav_off.png") no-repeat left;
+}
+.icon-reload {
+	background: url("/images/reload.png") no-repeat left;
+}
+.icon-lock {
+	background: url("/images/locked.png") no-repeat left;
+}
+.icon-unlock {
+	background: url("/images/unlock.png") no-repeat left;
+}
+.icon-checked {
+	background: url("/images/true.png") no-repeat left;
+}
+.icon-details {
+	background: url("/images/zoom_in.png") no-repeat left;
+}
+.icon-report {
+	background: url("/images/report.png") no-repeat left;
+}
+.icon-comment {
+	background: url("/images/comment.png") no-repeat left;
+}
+.icon22-projects {
+	background: url("/images/22x22/projects.png") no-repeat left;
+}
+.icon22-users {
+	background: url("/images/22x22/users.png") no-repeat left;
+}
+.icon22-tracker {
+	background: url("/images/22x22/tracker.png") no-repeat left;
+}
+.icon22-role {
+	background: url("/images/22x22/role.png") no-repeat left;
+}
+.icon22-workflow {
+	background: url("/images/22x22/workflow.png") no-repeat left;
+}
+.icon22-options {
+	background: url("/images/22x22/options.png") no-repeat left;
+}
+.icon22-notifications {
+	background: url("/images/22x22/notifications.png") no-repeat left;
+}
+.icon22-authent {
+	background: url("/images/22x22/authent.png") no-repeat left;
+}
+.icon22-info {
+	background: url("/images/22x22/info.png") no-repeat left;
+}
+.icon22-comment {
+	background: url("/images/22x22/comment.png") no-repeat left;
+}
+.icon22-package {
+	background: url("/images/22x22/package.png") no-repeat left;
+}
+.icon22-settings {
+	background: url("/images/22x22/settings.png") no-repeat left;
+}
+.icon22-plugin {
+	background: url("/images/22x22/plugin.png") no-repeat left;
+}

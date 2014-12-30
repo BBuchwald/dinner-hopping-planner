@@ -1,0 +1,153 @@
+body {
+	background: rgb(218, 230, 232);
+}
+#top-wrapper {
+	background: rgb(255, 255, 255); left: 0px; top: 0px; width: 100%; height: 22px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; position: absolute; z-index: 5;
+}
+#top-header {
+	margin: 0px auto; width: 864px; position: relative;
+}
+#breadcrumbs {
+	height: 24px; line-height: 24px; position: absolute;
+}
+#user-actions {
+	height: 24px; line-height: 24px; position: absolute;
+}
+#breadcrumbs {
+	left: 0px;
+}
+#breadcrumbs span {
+	height: 24px; line-height: 24px; margin-right: 5px; float: left;
+}
+#breadcrumbs a {
+	height: 24px; line-height: 24px; margin-right: 5px; float: left;
+}
+#breadcrumbs .separator {
+	background: url("/images/layout/separator.png") repeat-x left; width: 4px; display: inline-block;
+}
+#user-actions {
+	right: 0px;
+}
+#user-actions span {
+	line-height: 16px; font-size: 11px; margin-top: 3px; margin-left: 10px; float: left;
+}
+#user-actions a {
+	line-height: 16px; font-size: 11px; margin-top: 3px; margin-left: 10px; float: left;
+}
+#user-actions .fb_button {
+	margin: 2px 0px 0px 10px; height: 18px;
+}
+#user-actions .fb_button_text {
+	margin: 0px 0px 0px 18px; padding: 0px 5px; font-size: 10px;
+}
+#user-actions .feedback-wrapper {
+	background: rgb(255, 255, 255) !important; padding: 3px; margin-top: 0px;
+}
+#feedback_link {
+	height: 16px; text-align: center; color: rgb(255, 255, 255); text-decoration: none; cursor: pointer;
+}
+#user-actions .login {
+	height: 16px; text-align: center; color: rgb(255, 255, 255); text-decoration: none; cursor: pointer;
+}
+#feedback_link:hover {
+	background-position: left bottom;
+}
+#user-actions .login:hover {
+	background-position: left bottom;
+}
+#feedback_link {
+	background: url("/images/layout/feedback.png") left top; margin: 0px !important; width: 68px;
+}
+#user-actions .login {
+	background: url("/images/layout/sign-in.png") left top; width: 58px;
+}
+#container {
+	margin: 0px auto; width: 864px; padding-top: 22px; position: relative;
+}
+#content {
+	background: rgb(255, 255, 255); padding: 15px 25px 25px; height: auto !important; overflow: hidden; margin-bottom: 15px; position: relative; min-height: 450px;
+}
+#header {
+	width: 814px; height: 44px; clear: both; position: absolute; z-index: 20000000;
+}
+#cloudmade-logo {
+	background: url("/images/layout/cm-logo.png"); width: 50px; height: 50px; text-indent: -11000px; overflow: hidden; margin-top: -3px; float: left;
+}
+.main_menu {
+	background: rgb(218, 238, 242); margin: 5px 0px 0px; height: 34px; line-height: 14px; overflow: visible; float: right;
+}
+.main_menu li {
+	padding: 0px; float: left; position: relative;
+}
+.main_menu li a {
+	background: rgb(218, 238, 242); padding: 10px 36px; color: rgb(0, 88, 176); line-height: 14px; font-size: 14px; font-weight: 700; text-decoration: underline; border-right-color: rgb(255, 255, 255); border-right-width: 1px; border-right-style: solid; cursor: pointer;
+}
+.main_menu span {
+	background: rgb(218, 238, 242); padding: 10px 36px; color: rgb(0, 88, 176); line-height: 14px; font-size: 14px; font-weight: 700; text-decoration: underline; border-right-color: rgb(255, 255, 255); border-right-width: 1px; border-right-style: solid; cursor: pointer;
+}
+.main_menu li.last-child a {
+	border-right-color: currentColor; border-right-width: medium; border-right-style: none;
+}
+.main_menu span.selected {
+	color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(49, 124, 200);
+}
+.main_menu a.selected {
+	color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(49, 124, 200);
+}
+.main_menu span:hover {
+	color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(49, 124, 200);
+}
+.main_menu a:hover {
+	color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(49, 124, 200);
+}
+.dropdown-block a:hover {
+	color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(49, 124, 200);
+}
+.dropdown-block {
+	left: 0px; top: 34px; clear: both; position: absolute; z-index: 20;
+}
+.last-child .dropdown-block {
+	left: auto; right: 0px;
+}
+.dropdown-block li {
+	float: none;
+}
+.dropdown-block li a {
+	background: url("/images/layout/dropdown-item-bg.png") no-repeat 10px 12px rgb(52, 129, 206); padding: 0px 10px 0px 23px; width: 122px; height: 27px; color: rgb(255, 255, 255); line-height: 27px; font-size: 12px; font-weight: normal; border-right-color: currentColor; border-bottom-color: rgb(112, 166, 220); border-right-width: medium; border-bottom-width: 1px; border-right-style: none; border-bottom-style: solid; float: none; display: block;
+}
+#main_body {
+	overflow: hidden; padding-top: 60px; position: relative; zoom: 1; min-height: 400px;
+}
+#footer {
+	text-align: center; color: rgb(171, 175, 172); padding-bottom: 15px; margin-bottom: 0px;
+}
+#footer span {
+	padding-left: 10px;
+}
+#footer a {
+	padding-left: 10px;
+}
+#footer .first {
+	padding-left: 0px;
+}
+.warning_line {
+	background: rgb(255, 217, 217); margin: 0px; padding: 0px 25px; height: 22px; color: rgb(197, 0, 0); line-height: 22px;
+}
+#hiring {
+	background: url("/images/index/sponsored-locations-banner.png"); top: 0px; width: 153px; height: 151px; right: 0px; text-indent: -100000px; overflow: hidden; position: absolute; z-index: 100000;
+}
+.fb_iframe_widget {
+	display: inline-block; position: relative;
+}
+.fb_iframe_widget span:first-of-type {
+	text-align: justify; line-height: 16px; font-size: 11px; margin-top: 3px; margin-left: 10px; vertical-align: text-bottom; float: left; display: inline-block; position: relative;
+}
+#top-wrapper #top-header .fb_iframe_widget {
+	display: inline-block; position: relative;
+}
+#user-actions .feedback-wrapper {
+	background: 0px !important; padding: 3px; margin-top: 0px;
+}
+#hiring {
+	display: none;
+}

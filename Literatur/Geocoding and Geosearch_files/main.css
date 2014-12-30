@@ -1,0 +1,285 @@
+#quick-search {
+	padding: 0px; top: -40px; height: auto; right: 0px; color: rgb(51, 51, 51); position: absolute;
+}
+#quick-search input {
+	border-width: 1px medium 1px 1px; border-style: solid none solid solid; border-color: rgb(129, 129, 129) currentColor rgb(129, 129, 129) rgb(129, 129, 129); padding: 1px; width: 250px; height: 18px; color: rgb(120, 120, 120); line-height: 18px; font-size: 12px; float: left;
+}
+#quick-search a {
+	background: url("/images/img/buttons/search_but.gif") no-repeat; width: 24px; height: 22px; text-indent: -111000px; float: left; display: block;
+}
+.submenu {
+	margin-bottom: 15px; position: relative;
+}
+.submenu a {
+	padding: 0px 12px 0px 0px; color: rgb(0, 102, 203); text-decoration: underline;
+}
+.submenu a.selected {
+	padding: 0px 12px 0px 0px; color: rgb(0, 0, 0); text-decoration: none;
+}
+.submenu span {
+	padding: 0px 12px 0px 0px; color: rgb(0, 0, 0); text-decoration: none;
+}
+.submenu .right_link {
+	top: -38px; right: 0px; padding-right: 0px; position: absolute;
+}
+.submenu .right {
+	padding-right: 0px;
+}
+.submenu .faq {
+	padding-right: 0px;
+}
+.left_column {
+	width: 615px; overflow: hidden; float: left;
+}
+.left_column ul li {
+	background: url("/images/layout/bullet.png") no-repeat 0px 5px; padding-left: 15px;
+}
+.left_column p img {
+	margin: 0px 0px 15px 15px;
+}
+.left_column p.dock img {
+	margin: 0px 0px 2px 5px;
+}
+.right_column {
+	width: 185px; overflow: hidden; float: right;
+}
+.other-formats {
+	padding: 5px 0px; text-align: right; color: rgb(136, 136, 136); clear: both; font-size: 11px;
+}
+.odd {
+	background: rgb(251, 255, 255);
+}
+.even {
+	background: rgb(224, 235, 237);
+}
+.odd .selected {
+	background: rgb(233, 249, 255);
+}
+.even .selected {
+	background: rgb(208, 230, 237);
+}
+.sorting-cell {
+	white-space: nowrap;
+}
+.sorting-cell img {
+	margin-left: 4px;
+}
+.pagination {
+	margin: 5px 0px; color: rgb(136, 136, 136); display: block;
+}
+.pagination a {
+	background: rgb(238, 238, 238); margin: 0px 2px; padding: 1px 3px; border: 1px solid rgb(222, 222, 222); text-decoration: none;
+}
+.pagination span {
+	background: rgb(238, 238, 238); margin: 0px 2px; padding: 1px 3px; border: 1px solid rgb(222, 222, 222); text-decoration: none;
+}
+.add_file {
+	margin: 5px 0px 10px; display: block;
+}
+#attachments_fields em {
+	color: rgb(136, 136, 136); font-size: 11px; font-style: normal;
+}
+#ajax-indicator {
+	background: rgb(0, 0, 0); left: 300px; top: 200px; width: 200px; height: 100px; text-align: center; line-height: 100px; display: block; filter: alpha(opacity=60); position: absolute; opacity: 0.6; -moz-border-radius: 8px;
+}
+#ajax-indicator span {
+	background: url("/images/img/ajax-loader.gif") no-repeat 30px 35px; width: 200px; height: 100px; color: rgb(255, 255, 255); display: block;
+}
+div.popup_bg {
+	background: rgb(0, 0, 0); filter: alpha(opacity = 40); z-index: 20; opacity: 0.4;
+}
+div.popup {
+	background: rgb(214, 222, 224); border: 1px solid rgb(204, 204, 204); z-index: 25;
+}
+.popup .header {
+	background: rgb(124, 148, 152); padding: 5px; color: rgb(255, 255, 255); font-size: 14px; font-weight: normal; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.popup .body {
+	padding: 10px;
+}
+.popup .x_close {
+	font: bold 16px/normal tahoma; padding: 0px 8px 4px; top: 0px; right: 0px; color: rgb(255, 255, 255); text-decoration: none; position: absolute; font-size-adjust: none; font-stretch: normal;
+}
+#message_subject {
+	width: 550px;
+}
+.social-media {
+	width: 100%; clear: both; margin-bottom: 7px; display: inline-block;
+}
+.twitter-holder {
+	margin-right: 10px; float: left;
+}
+.twitter-holder .tb {
+	cursor: pointer;
+}
+.twitter-holder .t-count {
+	cursor: pointer;
+}
+.gallery-block {
+	background: 0px 0px rgb(222, 233, 235); padding: 10px 60px 10px 10px; margin-bottom: 10px; position: relative;
+}
+.gallery-block p {
+	line-height: 14px; margin-bottom: 5px;
+}
+.gallery-block h3 a {
+	font-weight: bold; white-space: nowrap;
+}
+.gallery-block .img-link {
+	top: 15px; right: 2px; position: absolute;
+}
+.dock {
+	background: rgb(224, 235, 237); padding: 10px; overflow: hidden; margin-bottom: 10px; position: relative; zoom: 1;
+}
+.main.dock {
+	background: rgb(250, 251, 212);
+}
+.grey.dock {
+	background: rgb(218, 238, 243); border: 1px solid rgb(216, 216, 216);
+}
+.dock h2 {
+	margin: 0px 0px 10px;
+}
+.dock h3 {
+	padding: 0px; clear: both; font-size: 14px; margin-bottom: 10px;
+}
+.dock p {
+	margin: 0px 0px 10px; clear: both;
+}
+.main.dock .line {
+	padding-top: 5px; font-size: 12px; margin-bottom: 0px;
+}
+.dock .info-title {
+	background: url("/images/important-icon.png") no-repeat left top; color: rgb(189, 0, 0); line-height: 18px; padding-left: 40px;
+}
+.dock .subheader {
+	margin-top: 15px;
+}
+.dock .button {
+	display: block;
+}
+.multiline.dock a {
+	margin-bottom: 5px; display: block;
+}
+.featured-dock {
+	background: rgb(225, 235, 237); position: relative; -moz-border-radius: 8px; -webkit-border-radius: 8px;
+}
+.featured-dock div {
+	padding: 15px; color: rgb(102, 102, 102);
+}
+.featured-dock h3 {
+	background: url("/images/layout/section-title-bg.png") repeat-x rgb(129, 139, 158); padding: 7px 15px; color: rgb(255, 255, 255); font-size: 14px; font-weight: bold; margin-bottom: 0px; white-space: nowrap; text-shadow: #222 0 1px 1px; -moz-border-radius-topleft: 8px; -webkit-border-top-left-radius: 8px; -moz-border-radius-topright: 8px; -webkit-border-top-right-radius: 8px;
+}
+#signup .button {
+	margin: 0px auto; width: auto; display: block;
+}
+#signup .placeholder {
+	color: rgb(204, 204, 204);
+}
+#signup {
+	background: rgb(225, 235, 237); padding: 10px 15px 15px; margin-bottom: 15px;
+}
+#latest_posts {
+	background: rgb(225, 235, 237); padding: 10px 15px 15px; margin-bottom: 15px;
+}
+#signup h3 {
+	font-size: 18px; margin-bottom: 10px; white-space: nowrap;
+}
+#signup h4 {
+	font-weight: bold;
+}
+#signup h4 {
+	font-size: 14px; margin-bottom: 10px;
+}
+#latest_posts h4 {
+	font-size: 14px; margin-bottom: 10px;
+}
+#signup li.simple {
+	
+}
+#signup p {
+	margin: 0px 0px 8px; clear: both;
+}
+#signup .input-holder {
+	width: 100%;
+}
+#signup .input-holder input {
+	width: 153px;
+}
+#signup .input-holder .error {
+	width: 147px;
+}
+#signup .fb_button {
+	margin-top: 10px; margin-left: 17px;
+}
+ul del {
+	background: url("/images/beta-icon.png") no-repeat right top; padding-right: 32px; text-decoration: none;
+}
+.component del {
+	background: url("/images/beta-icon.png") no-repeat right top; padding-right: 32px; text-decoration: none;
+}
+.beta {
+	background: url("/images/beta-icon.png") no-repeat right top; padding-right: 32px; text-decoration: none;
+}
+ul del {
+	padding-top: 3px;
+}
+.component del {
+	padding-top: 3px;
+}
+.follow-updates {
+	background: rgb(237, 238, 238); padding: 6px 6px 6px 10px; border-radius: 4px; -moz-border-radius: 4px;
+}
+.follow-updates span {
+	line-height: 22px;
+}
+.follow-updates .twitter {
+	width: 22px; height: 22px; text-indent: -100000px; overflow: hidden; margin-left: 6px;
+}
+.follow-updates .facebook {
+	width: 22px; height: 22px; text-indent: -100000px; overflow: hidden; margin-left: 6px;
+}
+.follow-updates .twitter {
+	background: url("/images/follow-twitter.png");
+}
+.follow-updates .facebook {
+	background: url("/images/follow-facebook.png");
+}
+#notice-wrapper {
+	padding: 10px; margin-bottom: 15px; position: relative; background-repeat: repeat-x;
+}
+.warning_block {
+	padding: 10px; margin-bottom: 15px; position: relative; background-repeat: repeat-x;
+}
+.error#notice-wrapper {
+	background-image: url("/images/layout/flash-error-bg.png");
+}
+.warning_block {
+	background-image: url("/images/layout/flash-error-bg.png");
+}
+.notice#notice-wrapper {
+	background-image: url("/images/layout/flash-notice-bg.png");
+}
+#notice-wrapper span {
+	padding: 3px 0px 1px 28px; color: rgb(0, 0, 0); font-size: 12px; background-color: transparent;
+}
+.error#notice-wrapper span {
+	background-image: url("/images/layout/flash-error-icon.png"); background-repeat: no-repeat;
+}
+span#notice {
+	background-image: url("/images/layout/flash-error-icon.png"); background-repeat: no-repeat;
+}
+.notice#notice-wrapper span {
+	background-image: url("/images/layout/flash-notice-icon.png"); background-repeat: no-repeat;
+}
+.fb_iframe_widget {
+	float: left; display: inline-block; position: relative;
+}
+.fb_iframe_widget span:first-of-type {
+	text-align: justify; line-height: 16px; font-size: 11px; margin-top: 2px; margin-left: 10px; vertical-align: text-bottom; float: left; display: inline-block; position: relative;
+}
+.img-with-border {
+	padding: 4px; border: 1px solid rgb(233, 233, 233);
+}
+pre {
+	width: 780px;
+}

@@ -1,0 +1,475 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0064)http://developers.cloudmade.com/projects/show/geocoding-http-api -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML 
+lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb = 
+"http://www.facebook.com/2008/fbml"><HEAD><TITLE>Geocoding &amp; Geosearch - 
+Overview </TITLE>
+<META content="text/html; charset=utf-8" http-equiv="content-type">
+<META content="Geocoding &amp; Geosearch - Overview " property="og:title">
+<META content="http://developers.cloudmade.com" property="og:site_name">
+<META content="http://developers.cloudmade.com/images/layout/cloudmade-logo.png" 
+property="og:image">
+<META content="Developer resources, code samples and tutorials for CloudMade's RESTful Geocoding HTTP API" 
+property="og:description">
+<META name="description" content=" Developer resources, code samples and tutorials for CloudMade's RESTful Geocoding HTTP API">
+<META name="keywords" content="geocoding, geosearch, http, web, mobile, service, api, maps, application, developers, overview, cloudmade ">
+<META name="verify-v1" 
+content="+LOwILmXkrN5ZmW4ZFtXi7BCmddkJa+ux4AKEcJwhaU="><LINK rel="stylesheet" 
+type="text/css" href="Geocoding%20and%20Geosearch_files/default.css" media="screen">
+<LINK rel="stylesheet" type="text/css" href="Geocoding%20and%20Geosearch_files/layout.css" 
+media="screen"><LINK rel="stylesheet" type="text/css" href="Geocoding%20and%20Geosearch_files/main.css" 
+media="screen"><LINK rel="stylesheet" type="text/css" href="Geocoding%20and%20Geosearch_files/icons.css" 
+media="screen"><LINK rel="stylesheet" type="text/css" href="Geocoding%20and%20Geosearch_files/jstoolbar.css" 
+media="screen"><LINK rel="stylesheet" type="text/css" href="Geocoding%20and%20Geosearch_files/button.css" 
+media="screen"><LINK rel="stylesheet" type="text/css" href="Geocoding%20and%20Geosearch_files/formValidate.css" 
+media="screen"><LINK rel="stylesheet" type="text/css" href="Geocoding%20and%20Geosearch_files/wiki.css" 
+media="screen"><!--[if lte IE 6]>
+    <link href="/stylesheets/main/main_ie6.css" media="screen" rel="stylesheet" type="text/css" />
+    <![endif]-->
+<SCRIPT type="text/javascript" src="Geocoding%20and%20Geosearch_files/prototype.js"></SCRIPT>
+
+<SCRIPT type="text/javascript" src="Geocoding%20and%20Geosearch_files/application.js"></SCRIPT>
+
+<SCRIPT type="text/javascript" src="Geocoding%20and%20Geosearch_files/popup.js"></SCRIPT>
+
+<SCRIPT type="text/javascript" src="Geocoding%20and%20Geosearch_files/menu.js"></SCRIPT>
+
+<SCRIPT type="text/javascript" src="Geocoding%20and%20Geosearch_files/validateForm.js"></SCRIPT>
+
+<SCRIPT type="text/javascript" src="Geocoding%20and%20Geosearch_files/light.js"></SCRIPT>
+<LINK title="ATOM" rel="alternate" type="application/atom+xml" href="http://developers.cloudmade.com/projects/activity/geocoding-http-api?format=atom">
+<SCRIPT type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6465953-2']);
+  _gaq.push(['_setDomainName', '.cloudmade.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_setAllowHash', false]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</SCRIPT>
+
+<META name="GENERATOR" content="MSHTML 9.00.8112.16450"></HEAD>
+<BODY>
+<DIV id="top-wrapper">
+<DIV id="top-header">
+<P id="breadcrumbs"><A href="http://cloudmade.com/">CloudMade</A><SPAN class="separator">&nbsp;</SPAN><A 
+href="http://developers.cloudmade.com/">Developers</A><SPAN 
+class="separator">&nbsp;</SPAN><SPAN>Geocoding and Geosearch</SPAN></P>
+<P id="user-actions"><A class="login native" href="http://developers.cloudmade.com/signin">Sign 
+In</A><fb:login-button style="height: 24px; overflow: hidden; float: left;" 
+size="small" show-faces="false" perms="email" 
+autologoutlink="true"></fb:login-button></P></DIV></DIV>
+<DIV id="container">
+<DIV id="content">
+<DIV id="header"><A id="cloudmade-logo" 
+href="http://cloudmade.com/">CloudMade</A>
+<DIV id="menu-wrapper">
+<UL id="main-menu" class="hor-menu main_menu">
+  <LI class="link-holder"><A href="http://cloudmade.com/about">About</A>
+  <UL style="display: none;" id="about-block" class="dropdown-block">
+    <LI><A href="http://cloudmade.com/about">About</A></LI>
+    <LI><A href="http://cloudmade.com/contact">Contact</A></LI>
+    <LI><A href="http://cloudmade.com/careers">Careers</A></LI></UL></LI>
+  <LI class="link-holder"><A id="products-link" class="dropdown-link" href="http://cloudmade.com/products">Products</A>
+  <UL style="display: none;" id="products-block" class="dropdown-block">
+    <LI><A href="http://cloudmade.com/in-game-sponsoring">Sponsored 
+    Locations</A></LI>
+    <LI><A href="http://cloudmade.com/products/iphone-lba-sdk">iPhone LBA 
+    SDK</A></LI>
+    <LI><A href="http://cloudmade.com/products/iphone-sdk">iPhone &amp; iPad 
+    SDK</A></LI>
+    <LI><A href="http://cloudmade.com/products/local-discovery-for-games">Local 
+    Discovery</A></LI>
+    <LI><A href="http://cloudmade.com/products/navi-studio">Navi Studio</A></LI>
+    <LI><A href="http://cloudmade.com/products/web-maps-studio">Web Maps 
+    Studio</A></LI>
+    <LI><A href="http://cloudmade.com/products/style-editor">Style 
+    Editor</A></LI>
+    <LI><A href="http://cloudmade.com/products">More Products</A></LI></UL></LI>
+  <LI class="link-holder"><A id="developers-link" class="dropdown-link selected" 
+  href="http://developers.cloudmade.com/">Developers</A>
+  <UL style="display: none;" id="developers-block" class="dropdown-block">
+    <LI><A href="http://cloudmade.com/application-gallery">Application 
+    Gallery</A></LI>
+    <LI><A 
+    href="http://developers.cloudmade.com/projects/show/iphone-lba-sdk">iPhone 
+    LBA SDK</A></LI>
+    <LI><A 
+    href="http://developers.cloudmade.com/projects/show/iphone-sdk">iPhone &amp; 
+    iPad SDK</A></LI>
+    <LI><A href="http://developers.cloudmade.com/projects/show/navi-studio">Navi 
+    Studio</A></LI>
+    <LI><A 
+    href="http://developers.cloudmade.com/projects/show/web-maps-studio">Web 
+    Maps Studio</A></LI>
+    <LI><A 
+    href="http://developers.cloudmade.com/projects/show/style-editor">Style 
+    Editor</A></LI>
+    <LI><A href="http://developers.cloudmade.com/">More Tools</A></LI></UL></LI>
+  <LI><A href="http://www.cloudmade.com/press/">Press</A></LI>
+  <LI><A href="http://blog.cloudmade.com/">Blog</A></LI>
+  <LI class="link-holder"><A id="support-link" class="dropdown-link" href="http://support.cloudmade.com/">Support</A>
+  <UL style="display: none;" id="support-block" class="dropdown-block">
+    <LI><A href="http://support.cloudmade.com/answers">FAQ</A></LI>
+    <LI><A href="http://support.cloudmade.com/issue-tracker">Issue 
+    Tracker</A></LI>
+    <LI><A href="http://support.cloudmade.com/developers-forums">Developers 
+    Forums</A></LI></UL></LI></UL></DIV></DIV>
+<DIV id="main_body">
+<H1 class="page_header"><SPAN class="beta">Geocoding and Geosearch</SPAN></H1>
+<DIV id="inner-content">
+<DIV class="nav-content">
+<DIV class="social-media">
+<DIV class="twitter-holder">
+<SCRIPT type="text/javascript" src="Geocoding%20and%20Geosearch_files/widgets.js"></SCRIPT>
+<A class="twitter-share-button" href="http://twitter.com/share" data-count="none" 
+data-text="You should take a look at @CloudMade's Geocoding and Geosearch if you're looking to add location to your app" 
+data-via="CloudMade" data-url="http://developers.cloudmade.com/projects/show/geocoding-http-api">Tweet</A>
+</DIV><fb:like colorscheme="light" font="segoe ui" action="like" height="24" 
+width="400" show_faces="false" layout="standard" href="http://developers.cloudmade.com/projects/show/geocoding-http-api "></fb:like></DIV>
+<DIV class="submenu"><A class="overview selected" href="http://developers.cloudmade.com/projects/show/geocoding-http-api">Overview</A>
+<A class="issues" href="http://developers.cloudmade.com/projects/geocoding-http-api/issues">Issue 
+Tracker</A><A class="wiki" href="http://developers.cloudmade.com/wiki/geocoding-http-api">Wiki</A><A 
+class="examples" href="http://developers.cloudmade.com/projects/geocoding-http-api/examples">Examples</A></DIV></DIV><!-- SEO --><!-- SEO -->
+<DIV class="right_column"></DIV>
+<DIV class="left_column">
+<DIV class="wiki">
+<P class="dock main"><A class="wiki-page" href="http://developers.cloudmade.com/wiki/geocoding-http-api/Documentation#Description- and-Overview">Description 
+ and Overview</A></P>
+<P class="dock main"><A class="wiki-page" href="http://developers.cloudmade.com/wiki/geocoding-http-api/Documentation#Freeform-search-Not-released-yet-httpcm-redmine01-datas3amazonawscomfiles101117091610_icon_alpha_redpng">Freeform 
+Search (Not released yet)</A><IMG alt="" src="Geocoding%20and%20Geosearch_files/101117091610_icon_alpha_red.png"></P>
+<P class="dock main"><A class="wiki-page" href="http://developers.cloudmade.com/wiki/geocoding-http-api/Documentation#Reverse-Geocoding-httpcm-redmine01-datas3amazonawscomfiles101117091610_icon_beta_orangepng">Reverse 
+Geocoding</A> <IMG alt="" src="Geocoding%20and%20Geosearch_files/101117091610_icon_beta_orange.png"></P>
+<P class="dock main"><A class="wiki-page" href="http://developers.cloudmade.com/wiki/geocoding-http-api/Documentation#Structured-search-httpcm-redmine01-datas3amazonawscomfiles101117091610_icon_beta_orangepng">Structured 
+Search</A> <IMG alt="" src="Geocoding%20and%20Geosearch_files/101117091610_icon_beta_orange.png"></P>
+<P class="dock main"><A class="wiki-page" href="http://developers.cloudmade.com/wiki/geocoding-http-api/Documentation#Parameters">Parameters</A></P>
+<H1 id="Description-and-Overview">Description and Overview<A class="wiki-anchor" 
+href="http://developers.cloudmade.com/projects/show/geocoding-http-api#Description-and-Overview">¶</A></H1>
+<P><STRONG>Geocoding</STRONG> is the process of turning an address into a 
+latitude and longitude pair.</P>
+<H3 id="Service-updates">Service updates<A class="wiki-anchor" href="http://developers.cloudmade.com/projects/show/geocoding-http-api#Service-updates">¶</A></H3>
+<P>Geocoding service was updated in <STRONG>December, 2010</STRONG>.</P>
+<H3 id="HTTP-Request-Structure">HTTP Request Structure<A class="wiki-anchor" 
+href="http://developers.cloudmade.com/projects/show/geocoding-http-api#HTTP-Request-Structure">¶</A></H3>
+<P>The Geocoding HTTP API exposes the method "find" as shown by the following 
+URL:</P><PRE>http://geocoding.cloudmade.com/YOUR-API-KEY/geocoding/v2/find.output_type?query=search_query&amp;other_parameters</PRE>
+<P><EM>YOUR-API-KEY</EM> (required) - get it at <A class="external" href="http://cloudmade.com/user/show">User 
+Profile page</A>.</P>
+<P><EM>search_query</EM> - if present, specifies an address to geocode, or a 
+keyword used to search for objects that contain this keyword in their names.</P>
+<P><EM>other_parameters</EM> - all parameters are optional and are listed in <A 
+class="wiki-page" href="http://developers.cloudmade.com/wiki/geocoding-http-api/Documentation#Parameters">Parameters 
+table</A>.</P>
+<P class="dock main"><STRONG>Note:</STRONG> You can add Geocoding service to you 
+application, examples and explanations can be found on <A class="external" href="http://developers.cloudmade.com/projects/web-maps-api/examples/geocoding">web</A> 
+and <A class="external" href="http://developers.cloudmade.com/wiki/iphone-sdk/Create_basic_Local_Search_and_Geocoding_app">iPhone</A> 
+SDK examples pages.</P>
+<H3 id="Query">Query<A class="wiki-anchor" href="http://developers.cloudmade.com/projects/show/geocoding-http-api#Query">¶</A></H3>
+<P>If the query represents an address, it can be either in a free form format 
+(for example, <STRONG>query=Oxford+st,+London,+UK</STRONG>), or specified as a 
+set of address parts separated by semicolon. The following address parts are 
+recognized: <STRONG>poi</STRONG>, <STRONG>house</STRONG>, 
+<STRONG>street</STRONG>, <STRONG>city</STRONG>, <STRONG>zipcode</STRONG> or 
+<STRONG>postcode</STRONG>, <STRONG>county</STRONG>, <STRONG>country</STRONG>. 
+For example, <STRONG>query=street:Oxford 
+street;city:London;country:UK</STRONG>.</P><STRONG>Query Note:</STRONG>
+<UL>
+  <LI>The Search is case-insensitive</LI>
+  <LI>Search word should match the whole word from the database</LI>
+  <LI>Wildcards are not currently supported</LI>
+  <LI>Spaces in the query of search words will be converted to '+' signs in the 
+  request</LI></UL>
+<P class="dock main"><STRONG>Note:</STRONG> Please note that the Geocoding HTTP 
+API expects UTF-8 encoding. Most browsers (except Chrome) do not encode query 
+parameters as UTF-8, so you will need to adjust their settings if you want to 
+test names that contain characters such as å, ü, Cyrillic characters and other 
+special characters. In Firefox  this is done by opening the about:config URL and 
+setting network.standard-url.encode-query-utf8 = true</P>
+<H3 id="Geocoding-responses">Geocoding responses<A class="wiki-anchor" href="http://developers.cloudmade.com/projects/show/geocoding-http-api#Geocoding-responses">¶</A></H3>
+Output types can be in:	
+<UL>
+  <LI>".js" for <A class="external" 
+  href="http://en.wikipedia.org/wiki/JSON">JSON</A><BR>
+  <P class="links_block"><A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.js?query=133+Fleet+street,+London,+UK">http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.js?query=133+Fleet+street,+London,+UK</A></P></LI></UL>
+<P></P>
+<UL>
+  <LI>".geojs" for <A class="external" href="http://en.wikipedia.org/wiki/GeoJSON">GeoJSON</A> 
+  <BR>
+  <P class="links_block"><A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.geojs?query=133+Fleet+street,+London,+UK">http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.geojs?query=133+Fleet+street,+London,+UK</A></P></LI></UL>
+<P></P>
+<UL>
+  <LI>".plist" for <A class="external" href="http://en.wikipedia.org/wiki/Property_list">Property 
+  list</A><BR>
+  <P class="links_block"><A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.plist?query=133+Fleet+street,+London,+UK">http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.plist?query=133+Fleet+street,+London,+UK</A></P></LI></UL>
+<P></P>
+<UL>
+  <LI>".html" to render search results on the map (useful for debugging 
+  purposes)<BR>
+  <P class="links_block"><A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=133+Fleet+street,+London,+UK">http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=133+Fleet+street,+London,+UK</A></P></LI></UL>
+<P></P>
+<H3 id="Release-Versions">Release Versions<A class="wiki-anchor" href="http://developers.cloudmade.com/projects/show/geocoding-http-api#Release-Versions">¶</A></H3>
+<P>Geocoder features are released in 3 stages - Alpha, Beta and Production 
+versions. Each of these versions is graded based on its quality level.  
+Understanding how a service and feature is graded will help you choose features 
+that are right for your application.</P>
+<UL>
+  <LI><STRONG>Alpha</STRONG> <IMG alt="" src="Geocoding%20and%20Geosearch_files/101117091610_icon_alpha_red.png"> 
+  - cutting edge, will contain bugs and incomplete features</LI>
+  <LI><STRONG>Beta</STRONG> <IMG alt="" src="Geocoding%20and%20Geosearch_files/101117091610_icon_beta_orange.png"> 
+  – a generally mature services, but may contain bugs or give unexpected 
+  results</LI>
+  <LI><STRONG>Production</STRONG> <IMG alt="" src="Geocoding%20and%20Geosearch_files/101209092346_icon_prod_blue.png"> 
+  - a mature service with complete features sets and no known bugs</LI></UL>
+<P class="dock main"><STRONG>Note:</STRONG> We do not recommend using Alpha or 
+Beta versions of the Geocoding HTTP API in production quality applications.</P>
+<P class="dock main"><STRONG>Note:</STRONG> The results returned by a Geocoding 
+search will vary depending on the quality and coverage of data for a particular 
+region.  The standard Geocoding HTTP API uses a combination of different data 
+sources to create a dataset and service that is free for you to use.  We also 
+offer a paid-for Geocoding HTTP API that uses premium data.  To learn more about 
+this service, contact our <A 
+href="mailto:developer-sales@cloudmade.com">Developer Sales Team</A>.</P>
+<H1 id="Freeform-search-Not-released-yet-httpcm-redmine01-datas3amazonawscomfiles101117091610_icon_alpha_redpng">Freeform 
+search (Not released yet)  <IMG alt="" src="Geocoding%20and%20Geosearch_files/101117091610_icon_alpha_red.png"><A 
+class="wiki-anchor" href="http://developers.cloudmade.com/projects/show/geocoding-http-api#Freeform-search-Not-released-yet-httpcm-redmine01-datas3amazonawscomfiles101117091610_icon_alpha_redpng">¶</A></H1>
+<P>Allows a user to search for an address using a freeform text string.</P>In 
+this method, the geocoding request is built in the following way:<BR><PRE>http://geocoding.cloudmade.com/YOUR-API-KEY/geocoding/v2/find.output_type?query=SEARCH PHRASE&amp;other_parameters</PRE>
+<P>Additional parameters can be found in the <A class="wiki-page" href="http://developers.cloudmade.com/wiki/geocoding-http-api/Documentation#Parameters">Parameters 
+table</A>.</P>
+<H3 id="Free-form-address-search-httpcm-redmine01-datas3amazonawscomfiles101117091610_icon_alpha_redpng">Free 
+form address search  <IMG alt="" src="Geocoding%20and%20Geosearch_files/101117091610_icon_alpha_red.png"><A 
+class="wiki-anchor" href="http://developers.cloudmade.com/projects/show/geocoding-http-api#Free-form-address-search-httpcm-redmine01-datas3amazonawscomfiles101117091610_icon_alpha_redpng">¶</A></H3>
+<P>Allows you to find any address present in CloudMade’s databases. Address 
+coverage varies by region and all address search services are rated “Alpha” 
+services.  If you require address level geoocding, a paid-for service is 
+available in most regions.  You can contact our  <A href="mailto:developer-sales@cloudmade.com">Developer 
+Sales Team</A> to find out more.</P>
+<P>Address search requests should be stated as <A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=133+Fleet+street,+London,+UK;">133 
+Fleet street, London, UK</A> <INS>UK, London, Fleet street, 133</INS>; <INS>133 
+Fleet street, London UK</INS></P>
+<P class="links_block"><A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=133+Fleet+street,+London,+UK">http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=133+Fleet+street,+London,+UK</A></P>
+<H3 id="Free-form-POI-search-httpcm-redmine01-datas3amazonawscomfiles101117091610_icon_alpha_redpng">Free 
+form POI search  <IMG alt="" src="Geocoding%20and%20Geosearch_files/101117091610_icon_alpha_red.png"><A 
+class="wiki-anchor" href="http://developers.cloudmade.com/projects/show/geocoding-http-api#Free-form-POI-search-httpcm-redmine01-datas3amazonawscomfiles101117091610_icon_alpha_redpng">¶</A></H3>
+<P>Used for POI search where an end user can input a POI search request in any 
+way.<BR>POI search request can be formulated as <A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=Zoo,+Berlin,+Germany">Zoo, 
+Belin, Germany</A>, <INS>cafe, Paris, France</INS> or even <INS>Ukraine Kyiv 
+hospital</INS></P>
+<P class="links_block"><A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=Zoo,+Berlin,+Germany">http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=Zoo,+Berlin,+Germany</A></P>
+<P>The list of POI types that can be found with CloudMade Geocoding is available 
+at <A class="external" href="http://developers.cloudmade.com/wiki/geocoding-http-api/Object_Types">Object 
+types</A> page.</P>
+<H3 id="Postcode-free-form-search-httpcm-redmine01-datas3amazonawscomfiles101117091610_icon_alpha_redpng">Postcode 
+free form search  <IMG alt="" src="Geocoding%20and%20Geosearch_files/101117091610_icon_alpha_red.png"><A 
+class="wiki-anchor" href="http://developers.cloudmade.com/projects/show/geocoding-http-api#Postcode-free-form-search-httpcm-redmine01-datas3amazonawscomfiles101117091610_icon_alpha_redpng">¶</A></H3>
+<P>Allows to find areas, cities, buildings that belong to a specific postcode or 
+zipcode (for USA).</P>
+<P>Postcode search request can be built as <A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=90210,+USA">90210, 
+USA</A> or even <A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=YO31%201EB">YO31 
+1EB</A></P>
+<P class="links_block"><A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=90210">http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=90210</A></P>
+<P><A class="external" href="http://developers.cloudmade.com/wiki/geocoding-http-api/Examples"><STRONG>More 
+examples</STRONG></A></P>
+<H1 id="Reverse-Geocoding-httpcm-redmine01-datas3amazonawscomfiles101117091610_icon_beta_orangepng">Reverse 
+Geocoding <IMG alt="" src="Geocoding%20and%20Geosearch_files/101117091610_icon_beta_orange.png"><A 
+class="wiki-anchor" href="http://developers.cloudmade.com/projects/show/geocoding-http-api#Reverse-Geocoding-httpcm-redmine01-datas3amazonawscomfiles101117091610_icon_beta_orangepng">¶</A></H1>
+<P>Reverse Geocoding finds an object that is closest to a certain point or 
+object.</P><PRE>http://geocoding.cloudmade.com/YOUR-API-KEY/geocoding/v2/find.html?around=object&amp;object_type=OBJECT_TYPE</PRE>
+<P><EM>YOUR-API-KEY</EM> - get it at <A class="external" href="http://cloudmade.com/user/show">User 
+Profile page</A>.<BR><EM>object</EM> - it can be 'lat,lon' or any other obejct 
+around which the search should be fulfilled.<BR><EM>object_type</EM> - types of 
+objects to look for, all the possible types can be found on <A class="external" 
+href="http://developers.cloudmade.com/wiki/geocoding-http-api/Object_Types">Object 
+types</A> page.</P>
+<P>All other parameters can be found in the <A class="wiki-page" href="http://developers.cloudmade.com/wiki/geocoding-http-api/Documentation#Parameters">Parameters 
+table</A>.</P>
+<H3 id="Reverse-address-Geocoding-httpcm-redmine01-datas3amazonawscomfiles101117091610_icon_alpha_redpng">Reverse 
+address Geocoding <IMG alt="" src="Geocoding%20and%20Geosearch_files/101117091610_icon_alpha_red.png"><A 
+class="wiki-anchor" href="http://developers.cloudmade.com/projects/show/geocoding-http-api#Reverse-address-Geocoding-httpcm-redmine01-datas3amazonawscomfiles101117091610_icon_alpha_redpng">¶</A></H3>
+<P>This method allows you to find the address closest to a certain point.</P>
+<P>Reverse address search request can be built as <A class="external" title="51.51558,-0.141449" 
+href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?object_type=address&amp;around=51.51558,-0.141449&amp;distance=closest">closest 
+ address  to a point</A> or <A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?object_type=address&amp;around=50.364518,30.5583&amp;distance=50">closest 
+address to a point (51.51558,-0.141449) not more than 50 meters</A></P>
+<P class="links_block"><A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?object_type=address&amp;around=51.51558,-0.141449">http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?object_type=address&amp;around=51.51558,-0.141449</A></P>
+<H3 id="Reverse-POI-Geocoding-httpcm-redmine01-datas3amazonawscomfiles101209092346_icon_prod_bluepng">Reverse 
+POI Geocoding <IMG alt="" src="Geocoding%20and%20Geosearch_files/101209092346_icon_prod_blue.png"><A 
+class="wiki-anchor" href="http://developers.cloudmade.com/projects/show/geocoding-http-api#Reverse-POI-Geocoding-httpcm-redmine01-datas3amazonawscomfiles101209092346_icon_prod_bluepng">¶</A></H3>
+<P>This method allows to search for places of interest around certain point. Can 
+be used in location based applications, e.g. find the nearest cafes to my 
+current location using GPS coorditanes, then build the route to it.</P>
+<P>All the possible types can be found on <A class="external" href="http://developers.cloudmade.com/wiki/geocoding-http-api/Object_Types">Object 
+types</A> page.</P>
+<P>Reverse POI search request can be built as <A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?object_type=cafe&amp;around=51.51558,-0.141449&amp;results=5&amp;distance=500">5 
+cafes closest to a point (51.51558,-0.141449) not more than 500 meters</A> or <A 
+class="external" title="50.104726,14.433868" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?object_type=road&amp;around=50.104726,14.433868&amp;distance=closest">closest 
+road to a point</A></P>
+<P class="links_block"><A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?object_type=cafe&amp;around=51.51558,-0.141449&amp;results=5&amp;distance=closest">http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?object_type=cafe&amp;around=51.51558,-0.141449&amp;results=5&amp;distance=closest</A></P>
+<H3 id="Reverse-Objects-Geocoding-httpcm-redmine01-datas3amazonawscomfiles101117091610_icon_beta_orangepng">Reverse 
+Objects Geocoding <IMG alt="" src="Geocoding%20and%20Geosearch_files/101117091610_icon_beta_orange.png"><A 
+class="wiki-anchor" href="http://developers.cloudmade.com/projects/show/geocoding-http-api#Reverse-Objects-Geocoding-httpcm-redmine01-datas3amazonawscomfiles101117091610_icon_beta_orangepng">¶</A></H3>
+<P>This method allows to find objects that are closest to the previously found 
+objects, e.g. closest cafe to Oxford Street, London, UK.</P>
+<P>Reverse POI search request can be built as <A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?object_type=cafe&amp;around=Oxford%20street,%20London,%20UK&amp;results=5&amp;distance=500">closest 
+5 cafes to Oxford Street, London, UK not more than 500 meters</A> or <A class="external" 
+href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?object_type=bus_stop&amp;around=Karlstrasse,%20Berlin">closest 
+bus stops to Karlstrasse, Berlin</A></P>
+<P class="links_block"><A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?object_type=cafe&amp;around=Oxford%20street,%20London,%20UK&amp;results=5&amp;distance=500">http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?object_type=cafe&amp;around=Oxford%20street,%20London,%20UK&amp;results=5&amp;distance=500</A></P>
+<P class="dock main"><STRONG>Note:</STRONG> there are some search requests that 
+are very similar, but they return very different search results. The difference 
+appears if such parameters as 'object_type' and 'query' OR 'object_type' and 
+'around' are used.<BR><A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?object_type=bus_stop&amp;query=Oxford,%20London">http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?object_type=bus_stop&amp;query=Oxford,%20London</A><BR>
+'object_type' and 'query' returns: all bus stops <STRONG>called</STRONG> 
+"Oxford, London" <BR><A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?object_type=bus_stop&amp;around=Oxford,%20London">http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?object_type=bus_stop&amp;around=Oxford,%20London</A><BR>
+'object_type' and 'around' returns: all bus stops <STRONG>near</STRONG> "Oxford, 
+London"</P>
+<P><A class="external" href="http://developers.cloudmade.com/wiki/geocoding-http-api/Examples#Reverse-geocoding"><STRONG>More 
+examples</STRONG></A></P>
+<H1 id="Structured-search-httpcm-redmine01-datas3amazonawscomfiles101117091610_icon_beta_orangepng">Structured 
+search <IMG alt="" src="Geocoding%20and%20Geosearch_files/101117091610_icon_beta_orange.png"><A 
+class="wiki-anchor" href="http://developers.cloudmade.com/projects/show/geocoding-http-api#Structured-search-httpcm-redmine01-datas3amazonawscomfiles101117091610_icon_beta_orangepng">¶</A></H1>
+<P>Finds geo objects by structured query.<BR>Query should contain key/value 
+pairs separated by ";", key should be separated from value by ":". Key should be 
+one of the following: country, county, city, street, house, poi.</P><PRE>http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?find.html?query=country:name;county:name;city:name;street:name;house:name;poi:name</PRE>
+<P>All parameters are optional.</P>
+<P>As additional parameter <EM>bbox</EM> - bounding box of area, tells where to 
+look for objects (format 
+"southern_latitude,western_longitude,northern_latitude,eastern_longitude").</P>
+<P class="links_block"><A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=street:Oxford+street&amp;bbox=51.36688,-0.35239,51.64718,0.09677">http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=street:Oxford+street&amp;bbox=51.36688,-0.35239,51.64718,0.09677</A></P>
+<H3 id="Structured-Address-search-httpcm-redmine01-datas3amazonawscomfiles101117091610_icon_beta_orangepng">Structured 
+Address search <IMG alt="" src="Geocoding%20and%20Geosearch_files/101117091610_icon_beta_orange.png"><A 
+class="wiki-anchor" href="http://developers.cloudmade.com/projects/show/geocoding-http-api#Structured-Address-search-httpcm-redmine01-datas3amazonawscomfiles101117091610_icon_beta_orangepng">¶</A></H3>
+<P>Structured search in word request looks the same as free form search, both 
+are formed as <A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=house:133;street:Fleet+street;city:London;country:UK">133 
+Fleet street, London, UK</A> , <A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=country:Germany;city:Berlin;street:Baseler%20Strasse;house:40">Germany, 
+Berlin, Baseler Strasse, 40</A> , <A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=city:London;country:UK;%20postcode:SE1">London, 
+UK, SE1</A> , Los Angeles, USA, 
+90210":http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=city:Los%20Angeles;country:USA;zipcode:90210</P>
+<P class="links_block"><A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=house:133;street:Fleet+street;city:London;country:UK">http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=house:133;street:Fleet+street;city:London;country:UK</A></P>
+<H3 id="Structured-street-and-city-search-httpcm-redmine01-datas3amazonawscomfiles101209092346_icon_prod_bluepng">Structured 
+street and city search <IMG alt="" src="Geocoding%20and%20Geosearch_files/101209092346_icon_prod_blue.png"><A 
+class="wiki-anchor" href="http://developers.cloudmade.com/projects/show/geocoding-http-api#Structured-street-and-city-search-httpcm-redmine01-datas3amazonawscomfiles101209092346_icon_prod_bluepng">¶</A></H3>
+<P>The search results and search request words are the same - <A class="external" 
+href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=street:Fleet+street;city:London;country:UK">Fleet 
+street, London, UK</A> , <A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=country:Germany;city:Berlin;street:Baseler%20Strasse">Germany, 
+Berlin, Baseler Strasse</A></P>
+<P class="links_block"><A class="external" href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=street:Fleet+street;city:London;country:UK">http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=street:Fleet+street;city:London;country:UK</A></P>
+<P><A class="external" href="http://developers.cloudmade.com/wiki/geocoding-http-api/Examples#Using-structured-search"><STRONG>More 
+examples</STRONG></A></P>
+<H1 id="Parameters">Parameters<A class="wiki-anchor" href="http://developers.cloudmade.com/projects/show/geocoding-http-api#Parameters">¶</A></H1>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TH><STRONG>Parameter</STRONG></TH>
+    <TH><STRONG>Explanation</STRONG></TH>
+    <TH><STRONG>Default</STRONG></TH></TR>
+  <TR>
+    <TD> <STRONG>results</STRONG> </TD>
+    <TD> Number of results to return. If results <EM>&lt;100</EM> then 
+      <STRONG>response.found</STRONG> shows how many objects have been found, 
+      but not more then 100. If results <EM>&gt;100</EM> then 
+      <STRONG>response.found</STRONG> is how many objects returned.</TD>
+    <TD> <CODE>10</CODE> </TD></TR>
+  <TR>
+    <TD> <STRONG>skip</STRONG> </TD>
+    <TD> Number of results to skip from the beginning. </TD>
+    <TD> <CODE>0</CODE> </TD></TR>
+  <TR>
+    <TD> <STRONG>return_geometry</STRONG> </TD>
+    <TD> Set it to <CODE>true</CODE> if you want geometry included in search 
+      results. </TD>
+    <TD> <CODE>false</CODE> </TD></TR>
+  <TR>
+    <TD> <STRONG>return_location</STRONG> </TD>
+    <TD> Set it to <CODE>true</CODE> if you do want location information, like 
+      road, city, county, country, postcode, in returned results. </TD>
+    <TD> <CODE>false</CODE> </TD></TR>
+  <TR>
+    <TD> <STRONG>bbox</STRONG> </TD>
+    <TD> Bounding box of the search area. Format: 
+      <CODE>southern_latitude,western_longitude,northern_latitude, 
+      eastern_longitude</CODE>. Cannot be used together with 
+      <STRONG>around</STRONG> / <STRONG>distance</STRONG>. </TD>
+    <TD> </TD></TR>
+  <TR>
+    <TD> <STRONG>around</STRONG> </TD>
+    <TD> Central point of the search area. Used together with 
+      <STRONG>distance</STRONG>. <STRONG>around</STRONG> must be an EPSG:4326 
+      coordinate ("latitude,longitude") or an address. Cannot be used together 
+      with <STRONG>bbox</STRONG>. If used together with a non-empty 
+      <STRONG>search_query</STRONG>, only one may specify an address. </TD>
+    <TD> </TD></TR>
+  <TR>
+    <TD> <STRONG>distance</STRONG> </TD>
+    <TD> Radius of the search area. Distance is specified in meters from the 
+      central point. Special value <STRONG>closest</STRONG> limits search 
+      results to one, closest to the central point of the search area. </TD>
+    <TD> 100 meters </TD></TR>
+  <TR>
+    <TD> <STRONG>bbox_only</STRONG> </TD>
+    <TD> Used only if <STRONG>bbox</STRONG> is specified. If set to false, the 
+      geocoder will return results from the full database, but still ranking 
+      results from within the specified bbox higher, otherwise only results from 
+      within the specified <STRONG>bbox</STRONG> will be returned. </TD>
+    <TD> <CODE>true</CODE> </TD></TR>
+  <TR>
+    <TD> <STRONG>object_type</STRONG> </TD>
+    <TD> Limits search results to a specific object type. Full list of object 
+      types can be found <A class="external" href="http://developers.cloudmade.com/wiki/geocoding-http-api/Object_Types">here</A>. 
+    </TD>
+    <TD> If <STRONG>around</STRONG> / <STRONG>distance</STRONG> is specified, 
+      the default is <STRONG>address</STRONG>. </TD></TR>
+  <TR>
+    <TD> <STRONG>callback</STRONG> </TD>
+    <TD> Ability to 'wrap' geocoding response into function, use 
+      <STRONG>cmGeocodeCallback</STRONG> value to do it, here is an <A class="external" 
+      href="http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.html?query=Ann%20Street,%20Belfast,%20UK&amp;return_location=true&amp;callback=cmGeocodeCallback">example</A> 
+    </TD>
+    <TD> </TD></TR>
+  <TR>
+    <TD> <STRONG>return_parent</STRONG> </TD>
+    <TD> Set it to true if you do want any high level result like road, city, 
+      county, country in returned results if low level does not exist. For 
+      example road will be returned if poi is not exist in query "supermarker, 
+      oxford street, london".  </TD>
+    <TD> true  </TD></TR>
+  <TR>
+    <TD> <STRONG>along</STRONG> </TD>
+    <TD>  Find objects from <A class="external" href="http://developers.cloudmade.com/wiki/geocoding-http-api/Object_Types">Objects 
+      list</A> along a line.  </TD>
+    <TD></TD></TR></TBODY></TABLE>
+<P><A class="external" href="http://developers.cloudmade.com/wiki/geocoding-http-api/Examples#Parameters-in-the-requests"><STRONG>More 
+examples</STRONG></A> how to use all the parameters in the HTTP 
+requests.</P></DIV></DIV>
+<DIV id="quick-search">
+<FORM method="get" action="/search/index/geocoding-http-api"><INPUT accessKey="f" 
+onblur="this.value = 'Quick Search'" id="q" class="small" onclick="this.value = ''" 
+name="q" value="Quick Search" size="20" type="text"><A accessKey="4" href="http://developers.cloudmade.com/search/index/geocoding-http-api">Search</A></FORM>
+</DIV></DIV>
+<DIV style="display: none;" id="ajax-indicator"><SPAN>Loading...</SPAN></DIV>
+<DIV class="clear"></DIV></DIV></DIV>
+<P id="footer"><SPAN class="first">© 2008-2012 CloudMade. Map data © 2012 
+OpenStreetMap.org contributors</SPAN><A href="http://cloudmade.com/terms_conditions" 
+target="_blank">Terms and Conditions</A><A href="http://cloudmade.com/privacy_policy" 
+target="_blank">Privacy Policy</A><SPAN class="powered_by">Powered by <A href="http://www.redmine.org/" 
+target="_blank">Redmine</A></SPAN></P></DIV><A id="hiring" href="http://cloudmade.com/in-game-sponsoring">Monetize 
+your game with Sponsored Locations</A>
+<DIV id="fb-root"></DIV>
+<SCRIPT type="text/javascript" src="Geocoding%20and%20Geosearch_files/all.js"></SCRIPT>
+
+<SCRIPT type="text/javascript">//<![CDATA[
+  FB.init({appId: '140175712704388', status: true, cookie: true, xfbml: true});
+  FB.Event.subscribe('auth.login', function(response) {
+    
+          window.location.href = 'http://cloudmade.com/start?ref=http://developers.cloudmade.com/projects/show/geocoding-http-api';
+    
+  });
+  //]]></SCRIPT>
+</BODY></HTML>

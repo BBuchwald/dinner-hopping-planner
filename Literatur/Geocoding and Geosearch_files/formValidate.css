@@ -1,0 +1,96 @@
+form p {
+	overflow: hidden; position: relative;
+}
+label {
+	font-weight: bold; margin-bottom: 4px; display: block;
+}
+.float label {
+	width: 130px; padding-top: 4px; float: left;
+}
+.no-float label {
+	float: none; display: inline;
+}
+label.checkbox {
+	font-weight: normal;
+}
+input:focus {
+	outline-width: 0px;
+}
+input.text {
+	border: 1px solid rgb(204, 204, 204); width: 206px; line-height: 16px;
+}
+textarea {
+	border: 1px solid rgb(204, 204, 204); width: 206px; line-height: 16px;
+}
+#captcha {
+	border: 1px solid rgb(204, 204, 204); width: 206px; line-height: 16px;
+}
+span.readonly {
+	border: 1px solid rgb(204, 204, 204); width: 206px; line-height: 16px;
+}
+input.text {
+	padding: 1px 0px; height: 20px;
+}
+span.readonly {
+	padding: 1px 0px; height: 20px;
+}
+input.readonly.text {
+	border-color: rgb(204, 204, 204) rgb(170, 170, 170) rgb(170, 170, 170) rgb(204, 204, 204); color: rgb(102, 102, 102);
+}
+#captcha {
+	width: 70px;
+}
+input.radio {
+	margin: 0px 4px 0px 0px; width: 13px; height: 13px; vertical-align: -1px;
+}
+input.checkbox {
+	margin: 0px 4px 0px 0px; width: 13px; height: 13px; vertical-align: -1px;
+}
+.input-holder {
+	width: 208px; height: 24px; clear: right; float: left; white-space: nowrap; position: relative;
+}
+.input-holder input.text {
+	position: absolute;
+}
+form small {
+	color: rgb(170, 170, 170); font-size: 11px;
+}
+#feedback .input-holder {
+	height: auto; float: none;
+}
+.input-holder .error {
+	background: rgb(255, 217, 217) !important; padding: 0px 3px !important; border: 1px solid rgb(197, 0, 0); width: 200px; color: rgb(197, 0, 0); font-size: 11px;
+}
+p.error.flash {
+	background: rgb(255, 217, 217) !important; padding: 0px 3px !important; border: 1px solid rgb(197, 0, 0); width: 200px; color: rgb(197, 0, 0); font-size: 11px;
+}
+.input-holder .error {
+	line-height: 22px;
+}
+p.error.flash {
+	line-height: 22px;
+}
+p.error.flash small {
+	line-height: 22px;
+}
+.input-holder .error {
+	margin: 0px !important; left: 0px; top: 0px; position: absolute;
+}
+p.flash small {
+	margin: 0px !important; left: 0px; top: 0px; position: absolute;
+}
+p.flash {
+	position: relative;
+}
+p.padded.flash {
+	margin-top: 20px;
+}
+p.flash small {
+	font-size: 11px; display: block; position: static;
+}
+.readonly {
+	background: rgb(239, 239, 239);
+}
+.hint {
+	clear: both; margin-top: 4px; display: block;
+}

@@ -1,0 +1,111 @@
+.left_block {
+	width: 480px; margin-right: 20px; float: left;
+}
+.right_block {
+	width: 310px; float: right;
+}
+span#notice {
+	background-position: 0px 2px; margin: 0px 20px 0px 0px; padding: 3px 4px 1px 28px; top: 0px; height: 18px; color: rgb(0, 0, 0); font-size: 12px; font-weight: bold; background-repeat: no-repeat; background-color: rgb(255, 153, 153);
+}
+.news_block {
+	background: rgb(250, 251, 212); padding: 10px; position: relative; zoom: 1;
+}
+.wrapper.news_block {
+	width: 280px !important;
+}
+.news_block h3 {
+	font-size: 14px; font-weight: bold;
+}
+.careers.news_block h3 {
+	margin-bottom: 7px;
+}
+.submenu {
+	position: relative;
+}
+.submenu a {
+	padding-right: 15px;
+}
+.submenu span {
+	padding-right: 15px;
+}
+.submenu .right_link {
+	top: -38px; right: 0px; padding-right: 0px; position: absolute;
+}
+.submenu .right {
+	padding-right: 0px;
+}
+.submenu .faq {
+	padding-right: 0px;
+}
+.submenu .pdf-logo {
+	background: url("/images/img/icons/pdf.png") no-repeat left 0px; height: 18px; padding-left: 20px; margin-left: 15px; float: left;
+}
+.social-media {
+	width: 100%; clear: both; margin-bottom: 7px;
+}
+.twitter-holder {
+	margin-right: 10px; float: left;
+}
+.gallery-block {
+	background: rgb(222, 233, 235); padding: 10px; position: relative;
+}
+.gallery-block h4 {
+	margin: 7px 0px 0px;
+}
+.gallery-block .img-link {
+	top: 10px; right: 0px; position: absolute;
+}
+.gallery-block p {
+	padding-right: 60px;
+}
+.follow-updates {
+	background: rgb(237, 238, 238); padding: 6px 6px 6px 10px; border-radius: 4px; top: 55px; width: 189px; right: 0px; position: absolute; -moz-border-radius: 4px;
+}
+.follow-updates span {
+	line-height: 22px;
+}
+.follow-updates .twitter {
+	width: 22px; height: 22px; text-indent: -100000px; overflow: hidden; margin-left: 6px;
+}
+.follow-updates .facebook {
+	width: 22px; height: 22px; text-indent: -100000px; overflow: hidden; margin-left: 6px;
+}
+.follow-updates .twitter {
+	background: url("/images/follow-twitter.png");
+}
+.follow-updates .facebook {
+	background: url("/images/follow-facebook.png");
+}
+.beta {
+	background: url("/images/products/new/beta-icon.png") no-repeat right top; padding-top: 3px; padding-right: 32px;
+}
+.hint-sign {
+	background: url("/images/pricing/hint.png"); width: 18px; height: 18px; cursor: pointer;
+}
+.no-float .hint-sign {
+	display: inline-block;
+}
+.hint-content {
+	padding: 5px 0px 8px; left: 500px; top: 20px; width: 248px; position: absolute; z-index: 21000000;
+}
+.hint-content div {
+	left: 0px; width: 248px; position: absolute;
+}
+.hint-content .top {
+	background: url("/images/pricing/hint-top.png"); top: 0px; height: 5px;
+}
+.hint-content .bottom {
+	background: url("/images/pricing/hint-bottom.png"); height: 8px; bottom: 0px;
+}
+.hint-content .close-hint {
+	background: url("/images/layout/close-icon.png") no-repeat; left: auto; top: 3px; width: 11px; height: 11px; right: 6px; overflow: hidden; position: absolute; cursor: pointer;
+}
+.hint-content p {
+	background: url("/images/pricing/hint-center.png") repeat-y; padding: 10px 12px 7px; margin-bottom: 0px !important;
+}
+.hint-content .tag {
+	background: url("/images/pricing/hint-tag.png") no-repeat right top; left: -14px; top: 10px; width: 17px; height: 28px; position: absolute;
+}
+.hint-content .left.tag {
+	left: -14px;
+}

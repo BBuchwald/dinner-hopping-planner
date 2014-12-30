@@ -1,0 +1,144 @@
+form {
+	margin: 0px; zoom: 1;
+}
+form p {
+	overflow: hidden; clear: both; position: relative;
+}
+.one-line {
+	overflow: hidden; clear: both; position: relative;
+}
+.one-line {
+	margin-bottom: 10px;
+}
+label {
+	font-weight: bold; margin-bottom: 4px; display: block;
+}
+.float label {
+	width: 130px; padding-top: 4px; float: left;
+}
+.no-float label {
+	padding-right: 10px; float: none; display: inline;
+}
+label.checkbox {
+	font-weight: normal;
+}
+input:focus {
+	outline-width: 0px;
+}
+input.text {
+	border: 1px solid rgb(204, 204, 204); width: 206px; line-height: 16px;
+}
+input[type='text'] {
+	border: 1px solid rgb(204, 204, 204); width: 206px; line-height: 16px;
+}
+textarea {
+	border: 1px solid rgb(204, 204, 204); width: 206px; line-height: 16px;
+}
+#captcha {
+	border: 1px solid rgb(204, 204, 204); width: 206px; line-height: 16px;
+}
+span.readonly {
+	border: 1px solid rgb(204, 204, 204); width: 206px; line-height: 16px;
+}
+input.text {
+	padding: 1px 0px; height: 20px;
+}
+span.readonly {
+	padding: 1px 0px; height: 20px;
+}
+input[type='text'] {
+	padding: 1px 0px; height: 20px;
+}
+input.readonly.text {
+	color: rgb(102, 102, 102);
+}
+input[readonly] {
+	color: rgb(102, 102, 102);
+}
+#captcha {
+	width: 70px;
+}
+input.radio {
+	margin: 0px 6px 0px 0px; width: 13px; height: 13px; vertical-align: -1px;
+}
+input.checkbox {
+	margin: 0px 6px 0px 0px; width: 13px; height: 13px; vertical-align: -1px;
+}
+input[type='checkbox'] {
+	margin: 0px 6px 0px 0px; width: 13px; height: 13px; vertical-align: -1px;
+}
+input[type='radio'] {
+	margin: 0px 6px 0px 0px; width: 13px; height: 13px; vertical-align: -1px;
+}
+.input-holder {
+	width: 208px; height: 24px; clear: right; float: left; white-space: nowrap; position: relative;
+}
+.input-holder input.text {
+	position: absolute;
+}
+form small {
+	color: rgb(170, 170, 170); line-height: 13px; font-size: 11px;
+}
+#feedback .input-holder {
+	height: auto; float: none;
+}
+.input-holder .error {
+	background: rgb(255, 217, 217) !important; padding: 0px 3px !important; border: 1px solid rgb(197, 0, 0); width: 200px; font-size: 11px;
+}
+p.error.flash {
+	background: rgb(255, 217, 217) !important; padding: 0px 3px !important; border: 1px solid rgb(197, 0, 0); width: 200px; font-size: 11px;
+}
+.input-holder .error {
+	line-height: 22px;
+}
+p.error.flash {
+	line-height: 22px;
+}
+p.error.flash small {
+	line-height: 22px;
+}
+.input-holder .error {
+	margin: 0px !important; left: 0px; top: 0px; position: absolute;
+}
+p.flash small {
+	margin: 0px !important; left: 0px; top: 0px; position: absolute;
+}
+p.flash {
+	position: relative;
+}
+p.padded.flash {
+	margin-top: 20px;
+}
+p.flash small {
+	font-size: 11px; display: block; position: static;
+}
+.readonly {
+	background: rgb(239, 239, 239);
+}
+.hint {
+	clear: both; margin-top: 4px; display: block;
+}
+.checkbox-row {
+	padding-left: 130px; vertical-align: bottom; position: relative; zoom: 1;
+}
+.one-line ul.checkbox-row {
+	padding-left: 0px;
+}
+.checkbox-row .input-holder {
+	white-space: nowrap;
+}
+.checkbox-row label {
+	font-weight: normal;
+}
+.checkbox-row label a {
+	cursor: pointer;
+}
+.checkbox-row span.label {
+	width: 130px; font-weight: bold; margin-bottom: -25px; margin-left: -130px; float: left;
+}
+p.complete-pro {
+	padding-left: 0px;
+}
+p.complete-pro label {
+	line-height: 15px; vertical-align: top; display: inline-block;
+}

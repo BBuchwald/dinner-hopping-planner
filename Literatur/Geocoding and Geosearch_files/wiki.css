@@ -1,0 +1,123 @@
+.wiki-links {
+	text-align: right;
+}
+.wiki-links a {
+	padding-left: 18px; font-size: 11px;
+}
+.wiki-links em {
+	color: rgb(136, 136, 136); font-style: normal; float: left;
+}
+div.wiki {
+	clear: both;
+}
+a.wiki-anchor {
+	display: none;
+}
+a.wiki-anchor:hover {
+	display: none;
+}
+#content .wiki h1 {
+	padding: 8px;
+}
+#content .wiki h2 {
+	padding: 8px;
+}
+#content .wiki h1 {
+	background: rgb(181, 203, 208); font-size: 18px;
+}
+#content .wiki h2 {
+	background: rgb(238, 238, 238);
+}
+#content .wiki h3 {
+	font-size: 14px;
+}
+.wiki table {
+	border-top-color: rgb(216, 216, 216); border-top-width: 1px; border-top-style: solid;
+}
+.wiki ul {
+	margin-bottom: 5px;
+}
+.wiki ol li {
+	list-style-type: decimal;
+}
+.wiki ins {
+	text-decoration: underline;
+}
+.wiki blockquote {
+	padding-left: 20px;
+}
+.wiki p img {
+	margin: 0px 0px 5px;
+}
+li .links_block {
+	margin-bottom: 0px;
+}
+div.wiki .external {
+	background-position: 0% 60%; padding-left: 12px; background-image: url("/images/external.png"); background-repeat: no-repeat;
+}
+div.wiki a.new {
+	color: rgb(183, 53, 53);
+}
+div.wiki pre {
+	width: auto;
+}
+div.wiki ul.toc {
+	padding: 10px; width: auto; background-color: rgb(250, 251, 212);
+}
+div.wiki ul.toc li.heading3 {
+	display: none;
+}
+#wiki_form {
+	width: 100%;
+}
+#wiki_form .jstElements {
+	width: 100%;
+}
+#wiki_form .jstEditor {
+	width: 100%;
+}
+.wiki-edit {
+	width: 100%;
+}
+#wiki_form .wiki-edit {
+	margin-top: 5px;
+}
+#wiki_form label {
+	width: 60px; line-height: 28px; float: left; display: block;
+}
+#content_comments {
+	width: 250px; display: block;
+}
+#preview {
+	margin: 10px 0px;
+}
+#preview .preview legend {
+	font-size: 16px; font-weight: bold;
+}
+#preview .preview pre {
+	width: 760px; overflow: auto;
+}
+#wiki_form input {
+	margin: 5px 0px;
+}
+.tabular p {
+	height: 25px; clear: both;
+}
+.tabular p label {
+	width: 140px; line-height: 25px; float: left; display: block;
+}
+.tabular p input {
+	margin: 0px; padding: 1px; width: 250px; float: left; display: block;
+}
+#wiki_page_redirect_existing_links {
+	width: 15px; height: 25px;
+}
+.pages-hierarchy li {
+	list-style-type: none;
+}
+#content .example_link {
+	width: 570px; overflow: auto;
+}
+#content .example_link a {
+	white-space: nowrap;
+}
