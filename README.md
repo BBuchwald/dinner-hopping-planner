@@ -30,4 +30,21 @@ Wo ist der Quellcode zu finden?
 *******************************
 Die entpackte Form des zip Files mit Quellcode ist im Ordner Prototyp zu finden.
 
+Wie ist der Aufbau?
+*******************
+Input: Adressen der Teilnehmer
+1. Geocodierer
+2. Distanzkalkulation
+3. Routenberechnung
+4. Visualisierung
+Output: Routen der einzelnen Teilnehmer
+
+Genaueres siehe Benutzer-Leitfaden!
+
+Hinweis
+*******
+Die CloudMade Services zur Geokodierung und zur Distanzbestimmung benötigen für ihre
+Funktion einen API Key. Zum Zeitpunkt der Erstellung 2012 war dieser frei verfügbar.
+Inzwischen kann die Nutzung kostenpflichtig sein.
+Hier bitte vor Verwendung unter Properties eventuell einen anderen Dienst auswählen!
 
